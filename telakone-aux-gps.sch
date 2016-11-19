@@ -4498,7 +4498,7 @@ Source: http://www.abracon.com/Oscillators/asf1-L-L1.pdf</description>
 <part name="+3V44" library="EKE" deviceset="+3V3" device=""/>
 <part name="GND75" library="EKE" deviceset="GND" device=""/>
 <part name="C6" library="omat_ic_2" deviceset="CAP" device="1206" value="10u 25V 1206"/>
-<part name="C7" library="omat_ic_2" deviceset="CAP" device="0603" value="100n 0603"/>
+<part name="C7" library="omat_ic_2" deviceset="CAP" device="0603" value="100n"/>
 <part name="C1" library="omat_ic_2" deviceset="CAP" device="1206" value="10u 25V 1206"/>
 <part name="C2" library="omat_ic_2" deviceset="CAP" device="1206" value="10u 25V 1206"/>
 <part name="N1" library="omat_ic_2" deviceset="TPS560200DBV" device=""/>
