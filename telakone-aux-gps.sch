@@ -1690,70 +1690,70 @@ Source: http://www.abracon.com/Oscillators/asf1-L-L1.pdf</description>
 <rectangle x1="4.826" y1="-0.254" x2="5.334" y2="0.254" layer="51"/>
 </package>
 <package name="LQFP-64">
-<smd name="1" x="-3.75" y="-5.825" dx="0.35" dy="1.35" layer="1"/>
-<smd name="2" x="-3.25" y="-5.825" dx="0.35" dy="1.35" layer="1"/>
-<smd name="3" x="-2.75" y="-5.825" dx="0.35" dy="1.35" layer="1"/>
-<smd name="4" x="-2.25" y="-5.825" dx="0.35" dy="1.35" layer="1"/>
-<smd name="5" x="-1.75" y="-5.825" dx="0.35" dy="1.35" layer="1"/>
-<smd name="6" x="-1.25" y="-5.825" dx="0.35" dy="1.35" layer="1"/>
-<smd name="7" x="-0.75" y="-5.825" dx="0.35" dy="1.35" layer="1"/>
-<smd name="8" x="-0.25" y="-5.825" dx="0.35" dy="1.35" layer="1"/>
-<smd name="9" x="0.25" y="-5.825" dx="0.35" dy="1.35" layer="1"/>
-<smd name="10" x="0.75" y="-5.825" dx="0.35" dy="1.35" layer="1"/>
-<smd name="11" x="1.25" y="-5.825" dx="0.35" dy="1.35" layer="1"/>
-<smd name="12" x="1.75" y="-5.825" dx="0.35" dy="1.35" layer="1"/>
-<smd name="13" x="2.25" y="-5.825" dx="0.35" dy="1.35" layer="1"/>
-<smd name="14" x="2.75" y="-5.825" dx="0.35" dy="1.35" layer="1"/>
-<smd name="15" x="3.25" y="-5.825" dx="0.35" dy="1.35" layer="1"/>
-<smd name="16" x="3.75" y="-5.825" dx="0.35" dy="1.35" layer="1"/>
-<smd name="17" x="5.825" y="-3.75" dx="1.35" dy="0.35" layer="1"/>
-<smd name="18" x="5.825" y="-3.25" dx="1.35" dy="0.35" layer="1"/>
-<smd name="19" x="5.825" y="-2.75" dx="1.35" dy="0.35" layer="1"/>
-<smd name="20" x="5.825" y="-2.25" dx="1.35" dy="0.35" layer="1"/>
-<smd name="21" x="5.825" y="-1.75" dx="1.35" dy="0.35" layer="1"/>
-<smd name="22" x="5.825" y="-1.25" dx="1.35" dy="0.35" layer="1"/>
-<smd name="23" x="5.825" y="-0.75" dx="1.35" dy="0.35" layer="1"/>
-<smd name="24" x="5.825" y="-0.25" dx="1.35" dy="0.35" layer="1"/>
-<smd name="25" x="5.825" y="0.25" dx="1.35" dy="0.35" layer="1"/>
-<smd name="26" x="5.825" y="0.75" dx="1.35" dy="0.35" layer="1"/>
-<smd name="27" x="5.825" y="1.25" dx="1.35" dy="0.35" layer="1"/>
-<smd name="28" x="5.825" y="1.75" dx="1.35" dy="0.35" layer="1"/>
-<smd name="29" x="5.825" y="2.25" dx="1.35" dy="0.35" layer="1"/>
-<smd name="30" x="5.825" y="2.75" dx="1.35" dy="0.35" layer="1"/>
-<smd name="31" x="5.825" y="3.25" dx="1.35" dy="0.35" layer="1"/>
-<smd name="32" x="5.825" y="3.75" dx="1.35" dy="0.35" layer="1"/>
-<smd name="33" x="3.75" y="5.825" dx="0.35" dy="1.35" layer="1"/>
-<smd name="34" x="3.25" y="5.825" dx="0.35" dy="1.35" layer="1"/>
-<smd name="35" x="2.75" y="5.825" dx="0.35" dy="1.35" layer="1"/>
-<smd name="36" x="2.25" y="5.825" dx="0.35" dy="1.35" layer="1"/>
-<smd name="37" x="1.75" y="5.825" dx="0.35" dy="1.35" layer="1"/>
-<smd name="38" x="1.25" y="5.825" dx="0.35" dy="1.35" layer="1"/>
-<smd name="39" x="0.75" y="5.825" dx="0.35" dy="1.35" layer="1"/>
-<smd name="40" x="0.25" y="5.825" dx="0.35" dy="1.35" layer="1"/>
-<smd name="41" x="-0.25" y="5.825" dx="0.35" dy="1.35" layer="1"/>
-<smd name="42" x="-0.75" y="5.825" dx="0.35" dy="1.35" layer="1"/>
-<smd name="43" x="-1.25" y="5.825" dx="0.35" dy="1.35" layer="1"/>
-<smd name="44" x="-1.75" y="5.825" dx="0.35" dy="1.35" layer="1"/>
-<smd name="45" x="-2.25" y="5.825" dx="0.35" dy="1.35" layer="1"/>
-<smd name="46" x="-2.75" y="5.825" dx="0.35" dy="1.35" layer="1"/>
-<smd name="47" x="-3.25" y="5.825" dx="0.35" dy="1.35" layer="1"/>
-<smd name="48" x="-3.75" y="5.825" dx="0.35" dy="1.35" layer="1"/>
-<smd name="49" x="-5.825" y="3.75" dx="1.35" dy="0.35" layer="1"/>
-<smd name="50" x="-5.825" y="3.25" dx="1.35" dy="0.35" layer="1"/>
-<smd name="51" x="-5.825" y="2.75" dx="1.35" dy="0.35" layer="1"/>
-<smd name="52" x="-5.825" y="2.25" dx="1.35" dy="0.35" layer="1"/>
-<smd name="53" x="-5.825" y="1.75" dx="1.35" dy="0.35" layer="1"/>
-<smd name="54" x="-5.825" y="1.25" dx="1.35" dy="0.35" layer="1"/>
-<smd name="55" x="-5.825" y="0.75" dx="1.35" dy="0.35" layer="1"/>
-<smd name="56" x="-5.825" y="0.25" dx="1.35" dy="0.35" layer="1"/>
-<smd name="57" x="-5.825" y="-0.25" dx="1.35" dy="0.35" layer="1"/>
-<smd name="58" x="-5.825" y="-0.75" dx="1.35" dy="0.35" layer="1"/>
-<smd name="59" x="-5.825" y="-1.25" dx="1.35" dy="0.35" layer="1"/>
-<smd name="60" x="-5.825" y="-1.75" dx="1.35" dy="0.35" layer="1"/>
-<smd name="61" x="-5.825" y="-2.25" dx="1.35" dy="0.35" layer="1"/>
-<smd name="62" x="-5.825" y="-2.75" dx="1.35" dy="0.35" layer="1"/>
-<smd name="63" x="-5.825" y="-3.25" dx="1.35" dy="0.35" layer="1"/>
-<smd name="64" x="-5.825" y="-3.75" dx="1.35" dy="0.35" layer="1"/>
+<smd name="1" x="-3.75" y="-5.825" dx="0.34" dy="1.35" layer="1"/>
+<smd name="2" x="-3.25" y="-5.825" dx="0.34" dy="1.35" layer="1"/>
+<smd name="3" x="-2.75" y="-5.825" dx="0.34" dy="1.35" layer="1"/>
+<smd name="4" x="-2.25" y="-5.825" dx="0.34" dy="1.35" layer="1"/>
+<smd name="5" x="-1.75" y="-5.825" dx="0.34" dy="1.35" layer="1"/>
+<smd name="6" x="-1.25" y="-5.825" dx="0.34" dy="1.35" layer="1"/>
+<smd name="7" x="-0.75" y="-5.825" dx="0.34" dy="1.35" layer="1"/>
+<smd name="8" x="-0.25" y="-5.825" dx="0.34" dy="1.35" layer="1"/>
+<smd name="9" x="0.25" y="-5.825" dx="0.34" dy="1.35" layer="1"/>
+<smd name="10" x="0.75" y="-5.825" dx="0.34" dy="1.35" layer="1"/>
+<smd name="11" x="1.25" y="-5.825" dx="0.34" dy="1.35" layer="1"/>
+<smd name="12" x="1.75" y="-5.825" dx="0.34" dy="1.35" layer="1"/>
+<smd name="13" x="2.25" y="-5.825" dx="0.34" dy="1.35" layer="1"/>
+<smd name="14" x="2.75" y="-5.825" dx="0.34" dy="1.35" layer="1"/>
+<smd name="15" x="3.25" y="-5.825" dx="0.34" dy="1.35" layer="1"/>
+<smd name="16" x="3.75" y="-5.825" dx="0.34" dy="1.35" layer="1"/>
+<smd name="17" x="5.825" y="-3.75" dx="1.35" dy="0.34" layer="1"/>
+<smd name="18" x="5.825" y="-3.25" dx="1.35" dy="0.34" layer="1"/>
+<smd name="19" x="5.825" y="-2.75" dx="1.35" dy="0.34" layer="1"/>
+<smd name="20" x="5.825" y="-2.25" dx="1.35" dy="0.34" layer="1"/>
+<smd name="21" x="5.825" y="-1.75" dx="1.35" dy="0.34" layer="1"/>
+<smd name="22" x="5.825" y="-1.25" dx="1.35" dy="0.34" layer="1"/>
+<smd name="23" x="5.825" y="-0.75" dx="1.35" dy="0.34" layer="1"/>
+<smd name="24" x="5.825" y="-0.25" dx="1.35" dy="0.34" layer="1"/>
+<smd name="25" x="5.825" y="0.25" dx="1.35" dy="0.34" layer="1"/>
+<smd name="26" x="5.825" y="0.75" dx="1.35" dy="0.34" layer="1"/>
+<smd name="27" x="5.825" y="1.25" dx="1.35" dy="0.34" layer="1"/>
+<smd name="28" x="5.825" y="1.75" dx="1.35" dy="0.34" layer="1"/>
+<smd name="29" x="5.825" y="2.25" dx="1.35" dy="0.34" layer="1"/>
+<smd name="30" x="5.825" y="2.75" dx="1.35" dy="0.34" layer="1"/>
+<smd name="31" x="5.825" y="3.25" dx="1.35" dy="0.34" layer="1"/>
+<smd name="32" x="5.825" y="3.75" dx="1.35" dy="0.34" layer="1"/>
+<smd name="33" x="3.75" y="5.825" dx="0.34" dy="1.35" layer="1"/>
+<smd name="34" x="3.25" y="5.825" dx="0.34" dy="1.35" layer="1"/>
+<smd name="35" x="2.75" y="5.825" dx="0.34" dy="1.35" layer="1"/>
+<smd name="36" x="2.25" y="5.825" dx="0.34" dy="1.35" layer="1"/>
+<smd name="37" x="1.75" y="5.825" dx="0.34" dy="1.35" layer="1"/>
+<smd name="38" x="1.25" y="5.825" dx="0.34" dy="1.35" layer="1"/>
+<smd name="39" x="0.75" y="5.825" dx="0.34" dy="1.35" layer="1"/>
+<smd name="40" x="0.25" y="5.825" dx="0.34" dy="1.35" layer="1"/>
+<smd name="41" x="-0.25" y="5.825" dx="0.34" dy="1.35" layer="1"/>
+<smd name="42" x="-0.75" y="5.825" dx="0.34" dy="1.35" layer="1"/>
+<smd name="43" x="-1.25" y="5.825" dx="0.34" dy="1.35" layer="1"/>
+<smd name="44" x="-1.75" y="5.825" dx="0.34" dy="1.35" layer="1"/>
+<smd name="45" x="-2.25" y="5.825" dx="0.34" dy="1.35" layer="1"/>
+<smd name="46" x="-2.75" y="5.825" dx="0.34" dy="1.35" layer="1"/>
+<smd name="47" x="-3.25" y="5.825" dx="0.34" dy="1.35" layer="1"/>
+<smd name="48" x="-3.75" y="5.825" dx="0.34" dy="1.35" layer="1"/>
+<smd name="49" x="-5.825" y="3.75" dx="1.35" dy="0.34" layer="1"/>
+<smd name="50" x="-5.825" y="3.25" dx="1.35" dy="0.34" layer="1"/>
+<smd name="51" x="-5.825" y="2.75" dx="1.35" dy="0.34" layer="1"/>
+<smd name="52" x="-5.825" y="2.25" dx="1.35" dy="0.34" layer="1"/>
+<smd name="53" x="-5.825" y="1.75" dx="1.35" dy="0.34" layer="1"/>
+<smd name="54" x="-5.825" y="1.25" dx="1.35" dy="0.34" layer="1"/>
+<smd name="55" x="-5.825" y="0.75" dx="1.35" dy="0.34" layer="1"/>
+<smd name="56" x="-5.825" y="0.25" dx="1.35" dy="0.34" layer="1"/>
+<smd name="57" x="-5.825" y="-0.25" dx="1.35" dy="0.34" layer="1"/>
+<smd name="58" x="-5.825" y="-0.75" dx="1.35" dy="0.34" layer="1"/>
+<smd name="59" x="-5.825" y="-1.25" dx="1.35" dy="0.34" layer="1"/>
+<smd name="60" x="-5.825" y="-1.75" dx="1.35" dy="0.34" layer="1"/>
+<smd name="61" x="-5.825" y="-2.25" dx="1.35" dy="0.34" layer="1"/>
+<smd name="62" x="-5.825" y="-2.75" dx="1.35" dy="0.34" layer="1"/>
+<smd name="63" x="-5.825" y="-3.25" dx="1.35" dy="0.34" layer="1"/>
+<smd name="64" x="-5.825" y="-3.75" dx="1.35" dy="0.34" layer="1"/>
 <wire x1="-4" y1="-6.75" x2="-3" y2="-7.25" width="0.127" layer="21"/>
 <wire x1="-3" y1="-7.25" x2="-4" y2="-7.75" width="0.127" layer="21"/>
 <circle x="-3.7" y="-4.3" radius="0.316225" width="0.127" layer="21"/>
@@ -3410,7 +3410,7 @@ Source: http://www.abracon.com/Oscillators/asf1-L-L1.pdf</description>
 <library name="EKE">
 <packages>
 <package name="PTH-2.6-5.5SQ">
-<pad name="1" x="0" y="0" drill="2.6" diameter="5.5" shape="square" thermals="no"/>
+<pad name="1" x="0" y="0" drill="2.6" diameter="5.45" shape="square" thermals="no"/>
 <text x="0" y="-3" size="1.4224" layer="21" align="top-center">&gt;NAME</text>
 </package>
 </packages>
@@ -4451,10 +4451,14 @@ Source: http://www.abracon.com/Oscillators/asf1-L-L1.pdf</description>
 <variantdefs>
 </variantdefs>
 <classes>
-<class number="0" name="default" width="0" drill="0">
+<class number="0" name="default" width="0.2" drill="0.3">
 </class>
 <class number="2" name="other" width="0.3" drill="0.3">
 <clearance class="1" value="1"/>
+</class>
+<class number="3" name="supply" width="0.3" drill="0.3">
+</class>
+<class number="4" name="power" width="0.5" drill="0.5">
 </class>
 </classes>
 <parts>
@@ -4753,7 +4757,7 @@ Source: http://www.abracon.com/Oscillators/asf1-L-L1.pdf</description>
 <pinref part="N1" gate="G$1" pin="SENSE"/>
 </segment>
 </net>
-<net name="+3V3" class="0">
+<net name="+3V3" class="3">
 <segment>
 <pinref part="+3V3" gate="G$1" pin="+3V3"/>
 <pinref part="R16" gate="G$1" pin="2"/>
@@ -4783,7 +4787,7 @@ Source: http://www.abracon.com/Oscillators/asf1-L-L1.pdf</description>
 <pinref part="L1" gate="G$1" pin="1"/>
 </segment>
 </net>
-<net name="+12V" class="0">
+<net name="+12V" class="4">
 <segment>
 <wire x1="139.7" y1="193.04" x2="139.7" y2="200.66" width="0.1524" layer="91"/>
 <wire x1="139.7" y1="200.66" x2="160.02" y2="200.66" width="0.1524" layer="91"/>
@@ -4817,7 +4821,7 @@ Source: http://www.abracon.com/Oscillators/asf1-L-L1.pdf</description>
 <junction x="226.06" y="127"/>
 </segment>
 </net>
-<net name="+12V_IN" class="0">
+<net name="+12V_IN" class="4">
 <segment>
 <pinref part="X1" gate="G$1" pin="2"/>
 <wire x1="106.68" y1="200.66" x2="93.98" y2="200.66" width="0.1524" layer="91"/>
@@ -4987,7 +4991,7 @@ Source: http://www.abracon.com/Oscillators/asf1-L-L1.pdf</description>
 <wire x1="279.4" y1="127" x2="294.64" y2="127" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="+3V3" class="0">
+<net name="+3V3" class="3">
 <segment>
 <pinref part="D2" gate="G$1" pin="VCC"/>
 <pinref part="+3V40" gate="G$1" pin="+3V3"/>
@@ -5009,14 +5013,14 @@ Source: http://www.abracon.com/Oscillators/asf1-L-L1.pdf</description>
 <wire x1="208.28" y1="71.12" x2="208.28" y2="68.58" width="0.1524" layer="91"/>
 <junction x="208.28" y="68.58"/>
 <label x="210.82" y="68.58" size="1.778" layer="95"/>
-<wire x1="208.28" y1="68.58" x2="254" y2="68.58" width="0.1524" layer="91"/>
-<pinref part="V23" gate="G$1" pin="1"/>
-<wire x1="254" y1="63.5" x2="254" y2="68.58" width="0.1524" layer="91"/>
-<wire x1="254" y1="68.58" x2="269.24" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="208.28" y1="68.58" x2="248.92" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="248.92" y1="68.58" x2="269.24" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="269.24" y1="68.58" x2="269.24" y2="121.92" width="0.1524" layer="91"/>
-<junction x="254" y="68.58"/>
 <wire x1="269.24" y1="121.92" x2="294.64" y2="121.92" width="0.1524" layer="91"/>
 <pinref part="X2" gate="G$1" pin="8"/>
+<pinref part="V23" gate="G$1" pin="2"/>
+<wire x1="248.92" y1="63.5" x2="248.92" y2="68.58" width="0.1524" layer="91"/>
+<junction x="248.92" y="68.58"/>
 </segment>
 </net>
 <net name="ACCRTXHI" class="0">
@@ -5030,15 +5034,15 @@ Source: http://www.abracon.com/Oscillators/asf1-L-L1.pdf</description>
 <junction x="208.28" y="83.82"/>
 <wire x1="208.28" y1="83.82" x2="231.14" y2="83.82" width="0.1524" layer="91"/>
 <label x="210.82" y="83.82" size="1.778" layer="95"/>
-<wire x1="248.92" y1="71.12" x2="231.14" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="231.14" y1="71.12" x2="231.14" y2="83.82" width="0.1524" layer="91"/>
-<pinref part="V23" gate="G$1" pin="2"/>
-<wire x1="248.92" y1="63.5" x2="248.92" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="294.64" y1="124.46" x2="266.7" y2="124.46" width="0.1524" layer="91"/>
 <wire x1="266.7" y1="124.46" x2="266.7" y2="71.12" width="0.1524" layer="91"/>
-<wire x1="266.7" y1="71.12" x2="248.92" y2="71.12" width="0.1524" layer="91"/>
-<junction x="248.92" y="71.12"/>
+<wire x1="266.7" y1="71.12" x2="254" y2="71.12" width="0.1524" layer="91"/>
 <pinref part="X2" gate="G$1" pin="7"/>
+<pinref part="V23" gate="G$1" pin="1"/>
+<wire x1="254" y1="71.12" x2="231.14" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="254" y1="63.5" x2="254" y2="71.12" width="0.1524" layer="91"/>
+<junction x="254" y="71.12"/>
 </segment>
 </net>
 <net name="ACCLINKTXE" class="0">
@@ -5071,7 +5075,7 @@ Source: http://www.abracon.com/Oscillators/asf1-L-L1.pdf</description>
 <label x="121.92" y="68.58" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="+12V" class="0">
+<net name="+12V" class="4">
 <segment>
 <wire x1="195.58" y1="233.68" x2="195.58" y2="236.22" width="0.1524" layer="91"/>
 <pinref part="P+10" gate="1" pin="+12V"/>
@@ -5170,19 +5174,19 @@ Source: http://www.abracon.com/Oscillators/asf1-L-L1.pdf</description>
 </net>
 <net name="IO_CH2" class="0">
 <segment>
-<pinref part="V10" gate="G$1" pin="C"/>
-<wire x1="248.92" y1="182.88" x2="231.14" y2="182.88" width="0.1524" layer="91"/>
 <wire x1="294.64" y1="134.62" x2="248.92" y2="134.62" width="0.1524" layer="91"/>
-<wire x1="248.92" y1="134.62" x2="248.92" y2="162.56" width="0.1524" layer="91"/>
-<pinref part="V27" gate="G$1" pin="C1"/>
-<wire x1="248.92" y1="162.56" x2="248.92" y2="182.88" width="0.1524" layer="91"/>
-<wire x1="223.52" y1="162.56" x2="248.92" y2="162.56" width="0.1524" layer="91"/>
-<junction x="248.92" y="162.56"/>
 <label x="256.54" y="134.62" size="1.778" layer="95"/>
 <pinref part="R15" gate="G$1" pin="2"/>
-<wire x1="213.36" y1="134.62" x2="248.92" y2="134.62" width="0.1524" layer="91"/>
-<junction x="248.92" y="134.62"/>
 <pinref part="X2" gate="G$1" pin="3"/>
+<pinref part="V27" gate="G$1" pin="C3"/>
+<wire x1="248.92" y1="134.62" x2="213.36" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="223.52" y1="152.4" x2="248.92" y2="152.4" width="0.1524" layer="91"/>
+<pinref part="V10" gate="G$1" pin="C"/>
+<wire x1="248.92" y1="182.88" x2="231.14" y2="182.88" width="0.1524" layer="91"/>
+<wire x1="248.92" y1="134.62" x2="248.92" y2="152.4" width="0.1524" layer="91"/>
+<junction x="248.92" y="134.62"/>
+<wire x1="248.92" y1="152.4" x2="248.92" y2="182.88" width="0.1524" layer="91"/>
+<junction x="248.92" y="152.4"/>
 </segment>
 </net>
 <net name="IO_CH1" class="0">
@@ -5204,28 +5208,28 @@ Source: http://www.abracon.com/Oscillators/asf1-L-L1.pdf</description>
 </net>
 <net name="IN_CH3" class="0">
 <segment>
-<wire x1="294.64" y1="132.08" x2="241.3" y2="132.08" width="0.1524" layer="91"/>
-<pinref part="V27" gate="G$1" pin="C2"/>
-<wire x1="241.3" y1="132.08" x2="213.36" y2="132.08" width="0.1524" layer="91"/>
-<wire x1="223.52" y1="157.48" x2="241.3" y2="157.48" width="0.1524" layer="91"/>
-<wire x1="241.3" y1="157.48" x2="241.3" y2="132.08" width="0.1524" layer="91"/>
-<junction x="241.3" y="132.08"/>
+<wire x1="294.64" y1="132.08" x2="246.38" y2="132.08" width="0.1524" layer="91"/>
 <label x="256.54" y="132.08" size="1.778" layer="95"/>
 <pinref part="X2" gate="G$1" pin="4"/>
 <pinref part="R4" gate="G$1" pin="2"/>
+<pinref part="V27" gate="G$1" pin="C1"/>
+<wire x1="246.38" y1="132.08" x2="213.36" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="223.52" y1="162.56" x2="246.38" y2="162.56" width="0.1524" layer="91"/>
+<wire x1="246.38" y1="162.56" x2="246.38" y2="132.08" width="0.1524" layer="91"/>
+<junction x="246.38" y="132.08"/>
 </segment>
 </net>
 <net name="IN_CH4" class="0">
 <segment>
-<wire x1="294.64" y1="129.54" x2="238.76" y2="129.54" width="0.1524" layer="91"/>
-<pinref part="V27" gate="G$1" pin="C3"/>
-<wire x1="238.76" y1="129.54" x2="213.36" y2="129.54" width="0.1524" layer="91"/>
-<wire x1="223.52" y1="152.4" x2="238.76" y2="152.4" width="0.1524" layer="91"/>
-<wire x1="238.76" y1="152.4" x2="238.76" y2="129.54" width="0.1524" layer="91"/>
-<junction x="238.76" y="129.54"/>
+<wire x1="294.64" y1="129.54" x2="243.84" y2="129.54" width="0.1524" layer="91"/>
 <label x="256.54" y="129.54" size="1.778" layer="95"/>
 <pinref part="X2" gate="G$1" pin="5"/>
 <pinref part="R5" gate="G$1" pin="2"/>
+<wire x1="243.84" y1="129.54" x2="213.36" y2="129.54" width="0.1524" layer="91"/>
+<pinref part="V27" gate="G$1" pin="C2"/>
+<wire x1="223.52" y1="157.48" x2="243.84" y2="157.48" width="0.1524" layer="91"/>
+<wire x1="243.84" y1="157.48" x2="243.84" y2="129.54" width="0.1524" layer="91"/>
+<junction x="243.84" y="129.54"/>
 </segment>
 </net>
 <net name="IN3" class="0">
@@ -5474,7 +5478,7 @@ Source: http://www.abracon.com/Oscillators/asf1-L-L1.pdf</description>
 <pinref part="C9" gate="G$1" pin="1"/>
 </segment>
 </net>
-<net name="+3V3" class="0">
+<net name="+3V3" class="3">
 <segment>
 <pinref part="C13" gate="G$1" pin="1"/>
 <pinref part="+3V9" gate="G$1" pin="+3V3"/>
@@ -5555,7 +5559,7 @@ Source: http://www.abracon.com/Oscillators/asf1-L-L1.pdf</description>
 <pinref part="D1" gate="G$1" pin="RSTL"/>
 </segment>
 </net>
-<net name="+12V" class="0">
+<net name="+12V" class="4">
 <segment>
 <pinref part="R35" gate="G$1" pin="1"/>
 <pinref part="P+33" gate="1" pin="+12V"/>
@@ -5734,7 +5738,7 @@ ADC1_13</text>
 <pinref part="GND32" gate="1" pin="GND"/>
 </segment>
 </net>
-<net name="+3V3" class="0">
+<net name="+3V3" class="3">
 <segment>
 <pinref part="+3V2" gate="G$1" pin="+3V3"/>
 <pinref part="H6" gate="G$1" pin="A"/>
@@ -6094,7 +6098,7 @@ ADC1_13</text>
 <junction x="175.26" y="101.6"/>
 </segment>
 </net>
-<net name="+3V3" class="0">
+<net name="+3V3" class="3">
 <segment>
 <pinref part="A2" gate="G$1" pin="VCC"/>
 <wire x1="218.44" y1="172.72" x2="228.6" y2="172.72" width="0.1524" layer="91"/>
