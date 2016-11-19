@@ -140,15 +140,6 @@
 <libraries>
 <library name="omat_ic_2">
 <packages>
-<package name="VLP8040">
-<smd name="1" x="-2.35" y="0" dx="3.3" dy="8.8" layer="1"/>
-<smd name="2" x="2.35" y="0" dx="3.3" dy="8.8" layer="1"/>
-<text x="-4" y="5" size="1.27" layer="25">&gt;NAME</text>
-<wire x1="-4.2" y1="4.6" x2="4.2" y2="4.6" width="0.127" layer="21"/>
-<wire x1="4.2" y1="4.6" x2="4.2" y2="-4.6" width="0.127" layer="21"/>
-<wire x1="4.2" y1="-4.6" x2="-4.2" y2="-4.6" width="0.127" layer="21"/>
-<wire x1="-4.2" y1="-4.6" x2="-4.2" y2="4.6" width="0.127" layer="21"/>
-</package>
 <package name="R0402">
 <description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;
 IPC 1005 chip</description>
@@ -1517,13 +1508,19 @@ Source: http://www.ledtronics.com/ds/smd-0603/Dstr0092.pdf</description>
 </package>
 <package name="U.FL-R-SMT-1">
 <smd name="SIG" x="0" y="-1.525" dx="1" dy="1.05" layer="1"/>
-<smd name="GND1" x="-2" y="0" dx="1.05" dy="2.2" layer="1"/>
-<smd name="GND2" x="2" y="0" dx="1.05" dy="2.2" layer="1"/>
+<smd name="GND1" x="-1.5" y="0" dx="1.05" dy="2.2" layer="1"/>
+<smd name="GND2" x="1.5" y="0" dx="1.05" dy="2.2" layer="1"/>
 <wire x1="-2" y1="2" x2="2" y2="2" width="0.127" layer="21"/>
 <wire x1="2" y1="2" x2="2" y2="-2" width="0.127" layer="21"/>
 <wire x1="2" y1="-2" x2="-2" y2="-2" width="0.127" layer="21"/>
 <wire x1="-2" y1="-2" x2="-2" y2="2" width="0.127" layer="21"/>
 <text x="-2" y="2.5" size="1.27" layer="25">&gt;NAME</text>
+<polygon width="0.127" layer="39">
+<vertex x="-2" y="2"/>
+<vertex x="2" y="2"/>
+<vertex x="2" y="-2"/>
+<vertex x="-2" y="-2"/>
+</polygon>
 </package>
 <package name="SOT95P280X145-5N">
 <smd name="1" x="-1.2954" y="0.9398" dx="1.27" dy="0.5588" layer="1"/>
@@ -1803,6 +1800,15 @@ Source: http://www.abracon.com/Oscillators/asf1-L-L1.pdf</description>
 <wire x1="1.644" y1="1.724" x2="1.644" y2="-1.324" width="0.1524" layer="21"/>
 <circle x="-1.3" y="1.3" radius="0.282840625" width="0.127" layer="21"/>
 </package>
+<package name="SRN6045">
+<smd name="1" x="-1.65" y="0" dx="2" dy="6" layer="1"/>
+<smd name="2" x="1.65" y="0" dx="2" dy="6" layer="1"/>
+<text x="-2.75" y="4" size="1.27" layer="25">&gt;NAME</text>
+<wire x1="-2.95" y1="3.35" x2="2.95" y2="3.35" width="0.127" layer="21"/>
+<wire x1="2.95" y1="3.35" x2="2.95" y2="-3.35" width="0.127" layer="21"/>
+<wire x1="2.95" y1="-3.35" x2="-2.95" y2="-3.35" width="0.127" layer="21"/>
+<wire x1="-2.95" y1="-3.35" x2="-2.95" y2="3.35" width="0.127" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="DINA3_L">
@@ -1837,13 +1843,6 @@ Source: http://www.abracon.com/Oscillators/asf1-L-L1.pdf</description>
 <text x="1.27" y="19.05" size="2.54" layer="94" font="vector">TITLE:</text>
 <text x="1.27" y="11.43" size="2.54" layer="94" font="vector">Document Number:</text>
 <text x="17.78" y="19.05" size="2.54" layer="94" font="vector">&gt;DRAWING_NAME</text>
-</symbol>
-<symbol name="LPS4018">
-<text x="-2.54" y="2.54" size="1.778" layer="95" font="vector">&gt;NAME</text>
-<text x="-2.54" y="-2.54" size="1.778" layer="96" font="vector" rot="MR180">&gt;VALUE</text>
-<pin name="A" x="-7.62" y="0" visible="off" length="middle"/>
-<pin name="B" x="7.62" y="0" visible="off" length="middle" rot="R180"/>
-<rectangle x1="-2.54" y1="-1.27" x2="2.54" y2="1.27" layer="94"/>
 </symbol>
 <symbol name="_RES">
 <wire x1="-2.54" y1="-0.889" x2="2.54" y2="-0.889" width="0.254" layer="94"/>
@@ -2400,22 +2399,6 @@ DIN A3, landscape with extra doc field</description>
 </gates>
 <devices>
 <device name="">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="VLP8040" prefix="L">
-<gates>
-<gate name="G$1" symbol="LPS4018" x="2.54" y="-2.54"/>
-</gates>
-<devices>
-<device name="-47U" package="VLP8040">
-<connects>
-<connect gate="G$1" pin="A" pad="1"/>
-<connect gate="G$1" pin="B" pad="2"/>
-</connects>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -3399,6 +3382,22 @@ Source: http://www.abracon.com/Oscillators/asf1-L-L1.pdf</description>
 <connect gate="G$1" pin="VCC" pad="8"/>
 <connect gate="G$1" pin="VSS" pad="4"/>
 <connect gate="G$1" pin="WP" pad="7"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SRN6045" prefix="L">
+<gates>
+<gate name="G$1" symbol="_IND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-100M" package="SRN6045">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4460,7 +4459,6 @@ Source: http://www.abracon.com/Oscillators/asf1-L-L1.pdf</description>
 </classes>
 <parts>
 <part name="FRAME1" library="omat_ic_2" deviceset="DINA3_L" device=""/>
-<part name="L1" library="omat_ic_2" deviceset="VLP8040" device="-47U" value="SRN6045-100M"/>
 <part name="R1" library="omat_ic_2" deviceset="RES" device="0603" value="61k9"/>
 <part name="R2" library="omat_ic_2" deviceset="RES" device="0603" value="20k0"/>
 <part name="GND2" library="EKE" deviceset="GND" device=""/>
@@ -4473,7 +4471,7 @@ Source: http://www.abracon.com/Oscillators/asf1-L-L1.pdf</description>
 <part name="+3V3" library="EKE" deviceset="+3V3" device=""/>
 <part name="GND16" library="EKE" deviceset="GND" device=""/>
 <part name="+3V4" library="EKE" deviceset="+3V3" device=""/>
-<part name="X6" library="omat_ic_2" deviceset="TE_RUUVILIITIN2" device=""/>
+<part name="X1" library="omat_ic_2" deviceset="TE_RUUVILIITIN2" device=""/>
 <part name="GND10" library="EKE" deviceset="GND" device=""/>
 <part name="V16" library="omat_ic_2" deviceset="SMAJXXA" device="" value="SMAJ20A"/>
 <part name="Y1" library="EKE" deviceset="PTH" device="2.6-5.5SQ"/>
@@ -4499,7 +4497,7 @@ Source: http://www.abracon.com/Oscillators/asf1-L-L1.pdf</description>
 <part name="C7" library="omat_ic_2" deviceset="CAP" device="0603" value="100n 0603"/>
 <part name="C1" library="omat_ic_2" deviceset="CAP" device="1206" value="10u 25V 1206"/>
 <part name="C2" library="omat_ic_2" deviceset="CAP" device="1206" value="10u 25V 1206"/>
-<part name="N2" library="omat_ic_2" deviceset="TPS560200DBV" device=""/>
+<part name="N1" library="omat_ic_2" deviceset="TPS560200DBV" device=""/>
 <part name="F1" library="omat_ic_2" deviceset="RES" device="1206" value="1A"/>
 <part name="FRAME3" library="omat_ic_2" deviceset="DINA3_L" device=""/>
 <part name="G1" library="omat_ic_2" deviceset="XTAL_3225_SMD" device="" value="25MHz"/>
@@ -4539,7 +4537,7 @@ Source: http://www.abracon.com/Oscillators/asf1-L-L1.pdf</description>
 <part name="A2" library="omat_ic_2" deviceset="UBLOX-NEO6" device=""/>
 <part name="GND12" library="EKE" deviceset="GND" device=""/>
 <part name="GND13" library="EKE" deviceset="GND" device=""/>
-<part name="LED2" library="omat_ic_2" deviceset="LED" device="CHIP-LED0603" value="GRN"/>
+<part name="H1" library="omat_ic_2" deviceset="LED" device="CHIP-LED0603" value="GRN"/>
 <part name="R6" library="omat_ic_2" deviceset="RES" device="0603" value="499"/>
 <part name="GND14" library="EKE" deviceset="GND" device=""/>
 <part name="+3V6" library="EKE" deviceset="+3V3" device=""/>
@@ -4547,7 +4545,7 @@ Source: http://www.abracon.com/Oscillators/asf1-L-L1.pdf</description>
 <part name="GND15" library="EKE" deviceset="GND" device=""/>
 <part name="R7" library="omat_ic_2" deviceset="RES" device="0603" value="10"/>
 <part name="L3" library="omat_ic_2" deviceset="RES" device="0603" value="27nH"/>
-<part name="X2" library="omat_ic_2" deviceset="U.FL-R-SMT-1" device=""/>
+<part name="X4" library="omat_ic_2" deviceset="U.FL-R-SMT-1" device=""/>
 <part name="R8" library="omat_ic_2" deviceset="RES" device="0603" value="0R-DNP"/>
 <part name="GND17" library="EKE" deviceset="GND" device=""/>
 <part name="FRAME4" library="omat_ic_2" deviceset="DINA3_L" device=""/>
@@ -4583,7 +4581,7 @@ Source: http://www.abracon.com/Oscillators/asf1-L-L1.pdf</description>
 <part name="R21" library="omat_ic_2" deviceset="RES" device="0603" value="825"/>
 <part name="C8" library="omat_ic_2" deviceset="CAP" device="0603" value="10n"/>
 <part name="C10" library="omat_ic_2" deviceset="CAP" device="0603" value="10n"/>
-<part name="X1" library="omat_ic_2" deviceset="MPT0.5/8-2.54" device=""/>
+<part name="X2" library="omat_ic_2" deviceset="MPT0.5/8-2.54" device=""/>
 <part name="H4" library="omat_ic_2" deviceset="LED" device="CHIP-LED0603" value="RED"/>
 <part name="H5" library="omat_ic_2" deviceset="LED" device="CHIP-LED0603" value="GRN"/>
 <part name="R22" library="omat_ic_2" deviceset="RES" device="0603" value="499"/>
@@ -4628,6 +4626,7 @@ Source: http://www.abracon.com/Oscillators/asf1-L-L1.pdf</description>
 <part name="C19" library="omat_ic_2" deviceset="CAP" device="0603" value="100n"/>
 <part name="GND33" library="EKE" deviceset="GND" device=""/>
 <part name="+3V19" library="EKE" deviceset="+3V3" device=""/>
+<part name="L1" library="omat_ic_2" deviceset="SRN6045" device="-100M"/>
 </parts>
 <sheets>
 <sheet>
@@ -4638,7 +4637,6 @@ Source: http://www.abracon.com/Oscillators/asf1-L-L1.pdf</description>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
 <instance part="FRAME1" gate="G$2" x="287.02" y="0"/>
-<instance part="L1" gate="G$1" x="236.22" y="200.66"/>
 <instance part="R1" gate="G$1" x="266.7" y="190.5" rot="R270"/>
 <instance part="R2" gate="G$1" x="266.7" y="172.72" rot="R270"/>
 <instance part="GND2" gate="1" x="266.7" y="162.56"/>
@@ -4651,7 +4649,7 @@ Source: http://www.abracon.com/Oscillators/asf1-L-L1.pdf</description>
 <instance part="+3V3" gate="G$1" x="226.06" y="144.78"/>
 <instance part="GND16" gate="1" x="172.72" y="116.84"/>
 <instance part="+3V4" gate="G$1" x="172.72" y="137.16"/>
-<instance part="X6" gate="G$1" x="86.36" y="198.12" rot="MR180"/>
+<instance part="X1" gate="G$1" x="86.36" y="198.12" rot="MR180"/>
 <instance part="GND10" gate="1" x="99.06" y="177.8"/>
 <instance part="V16" gate="G$1" x="121.92" y="190.5" rot="R90"/>
 <instance part="Y1" gate="G$1" x="114.3" y="78.74"/>
@@ -4665,17 +4663,18 @@ Source: http://www.abracon.com/Oscillators/asf1-L-L1.pdf</description>
 <instance part="C7" gate="G$1" x="160.02" y="190.5"/>
 <instance part="C1" gate="G$1" x="284.48" y="195.58"/>
 <instance part="C2" gate="G$1" x="302.26" y="195.58"/>
-<instance part="N2" gate="G$1" x="195.58" y="190.5"/>
+<instance part="N1" gate="G$1" x="195.58" y="190.5"/>
 <instance part="F1" gate="G$1" x="111.76" y="200.66"/>
+<instance part="L1" gate="G$1" x="236.22" y="200.66" rot="R270"/>
 </instances>
 <busses>
 </busses>
 <nets>
-<net name="N$1" class="0">
+<net name="N1_PHASE" class="0">
 <segment>
-<pinref part="L1" gate="G$1" pin="A"/>
-<wire x1="213.36" y1="200.66" x2="228.6" y2="200.66" width="0.1524" layer="91"/>
-<pinref part="N2" gate="G$1" pin="PH"/>
+<wire x1="213.36" y1="200.66" x2="231.14" y2="200.66" width="0.1524" layer="91"/>
+<pinref part="N1" gate="G$1" pin="PH"/>
+<pinref part="L1" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="GND" class="2">
@@ -4695,7 +4694,7 @@ Source: http://www.abracon.com/Oscillators/asf1-L-L1.pdf</description>
 <pinref part="GND4" gate="1" pin="GND"/>
 <pinref part="C6" gate="G$1" pin="2"/>
 <pinref part="C7" gate="G$1" pin="2"/>
-<pinref part="N2" gate="G$1" pin="GND"/>
+<pinref part="N1" gate="G$1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="D10" gate="G$1" pin="GND"/>
@@ -4711,7 +4710,7 @@ Source: http://www.abracon.com/Oscillators/asf1-L-L1.pdf</description>
 <wire x1="121.92" y1="187.96" x2="121.92" y2="182.88" width="0.1524" layer="91"/>
 <wire x1="121.92" y1="182.88" x2="99.06" y2="182.88" width="0.1524" layer="91"/>
 <junction x="99.06" y="182.88"/>
-<pinref part="X6" gate="G$1" pin="1"/>
+<pinref part="X1" gate="G$1" pin="1"/>
 <wire x1="93.98" y1="198.12" x2="99.06" y2="198.12" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -4743,7 +4742,7 @@ Source: http://www.abracon.com/Oscillators/asf1-L-L1.pdf</description>
 <junction x="302.26" y="187.96"/>
 </segment>
 </net>
-<net name="N$4" class="0">
+<net name="N1_SENSE" class="0">
 <segment>
 <wire x1="213.36" y1="180.34" x2="266.7" y2="180.34" width="0.1524" layer="91"/>
 <pinref part="R1" gate="G$1" pin="2"/>
@@ -4751,7 +4750,7 @@ Source: http://www.abracon.com/Oscillators/asf1-L-L1.pdf</description>
 <pinref part="R2" gate="G$1" pin="1"/>
 <wire x1="266.7" y1="180.34" x2="266.7" y2="177.8" width="0.1524" layer="91"/>
 <junction x="266.7" y="180.34"/>
-<pinref part="N2" gate="G$1" pin="SENSE"/>
+<pinref part="N1" gate="G$1" pin="SENSE"/>
 </segment>
 </net>
 <net name="+3V3" class="0">
@@ -4767,8 +4766,7 @@ Source: http://www.abracon.com/Oscillators/asf1-L-L1.pdf</description>
 <wire x1="172.72" y1="132.08" x2="172.72" y2="134.62" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="L1" gate="G$1" pin="B"/>
-<wire x1="243.84" y1="200.66" x2="266.7" y2="200.66" width="0.1524" layer="91"/>
+<wire x1="241.3" y1="200.66" x2="266.7" y2="200.66" width="0.1524" layer="91"/>
 <wire x1="266.7" y1="200.66" x2="284.48" y2="200.66" width="0.1524" layer="91"/>
 <wire x1="284.48" y1="200.66" x2="284.48" y2="198.12" width="0.1524" layer="91"/>
 <pinref part="R1" gate="G$1" pin="1"/>
@@ -4782,6 +4780,7 @@ Source: http://www.abracon.com/Oscillators/asf1-L-L1.pdf</description>
 <pinref part="+3V1" gate="G$1" pin="+3V3"/>
 <wire x1="302.26" y1="203.2" x2="302.26" y2="200.66" width="0.1524" layer="91"/>
 <junction x="302.26" y="200.66"/>
+<pinref part="L1" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="+12V" class="0">
@@ -4803,7 +4802,7 @@ Source: http://www.abracon.com/Oscillators/asf1-L-L1.pdf</description>
 <junction x="121.92" y="200.66"/>
 <pinref part="C6" gate="G$1" pin="1"/>
 <pinref part="C7" gate="G$1" pin="1"/>
-<pinref part="N2" gate="G$1" pin="VIN"/>
+<pinref part="N1" gate="G$1" pin="VIN"/>
 <pinref part="F1" gate="G$1" pin="2"/>
 </segment>
 </net>
@@ -4818,9 +4817,9 @@ Source: http://www.abracon.com/Oscillators/asf1-L-L1.pdf</description>
 <junction x="226.06" y="127"/>
 </segment>
 </net>
-<net name="N$8" class="0">
+<net name="+12V_IN" class="0">
 <segment>
-<pinref part="X6" gate="G$1" pin="2"/>
+<pinref part="X1" gate="G$1" pin="2"/>
 <wire x1="106.68" y1="200.66" x2="93.98" y2="200.66" width="0.1524" layer="91"/>
 <pinref part="F1" gate="G$1" pin="1"/>
 </segment>
@@ -4891,7 +4890,7 @@ Source: http://www.abracon.com/Oscillators/asf1-L-L1.pdf</description>
 <instance part="R21" gate="G$1" x="172.72" y="116.84" rot="R90"/>
 <instance part="C8" gate="G$1" x="147.32" y="116.84"/>
 <instance part="C10" gate="G$1" x="139.7" y="116.84"/>
-<instance part="X1" gate="G$1" x="302.26" y="127" rot="MR0"/>
+<instance part="X2" gate="G$1" x="302.26" y="127" rot="MR0"/>
 </instances>
 <busses>
 </busses>
@@ -4984,7 +4983,7 @@ Source: http://www.abracon.com/Oscillators/asf1-L-L1.pdf</description>
 <segment>
 <pinref part="GND6" gate="1" pin="GND"/>
 <wire x1="279.4" y1="116.84" x2="279.4" y2="127" width="0.1524" layer="91"/>
-<pinref part="X1" gate="G$1" pin="6"/>
+<pinref part="X2" gate="G$1" pin="6"/>
 <wire x1="279.4" y1="127" x2="294.64" y2="127" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -5017,7 +5016,7 @@ Source: http://www.abracon.com/Oscillators/asf1-L-L1.pdf</description>
 <wire x1="269.24" y1="68.58" x2="269.24" y2="121.92" width="0.1524" layer="91"/>
 <junction x="254" y="68.58"/>
 <wire x1="269.24" y1="121.92" x2="294.64" y2="121.92" width="0.1524" layer="91"/>
-<pinref part="X1" gate="G$1" pin="8"/>
+<pinref part="X2" gate="G$1" pin="8"/>
 </segment>
 </net>
 <net name="ACCRTXHI" class="0">
@@ -5039,7 +5038,7 @@ Source: http://www.abracon.com/Oscillators/asf1-L-L1.pdf</description>
 <wire x1="266.7" y1="124.46" x2="266.7" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="266.7" y1="71.12" x2="248.92" y2="71.12" width="0.1524" layer="91"/>
 <junction x="248.92" y="71.12"/>
-<pinref part="X1" gate="G$1" pin="7"/>
+<pinref part="X2" gate="G$1" pin="7"/>
 </segment>
 </net>
 <net name="ACCLINKTXE" class="0">
@@ -5097,7 +5096,7 @@ Source: http://www.abracon.com/Oscillators/asf1-L-L1.pdf</description>
 <junction x="195.58" y="198.12"/>
 </segment>
 <segment>
-<pinref part="X1" gate="G$1" pin="1"/>
+<pinref part="X2" gate="G$1" pin="1"/>
 <wire x1="294.64" y1="139.7" x2="279.4" y2="139.7" width="0.1524" layer="91"/>
 <wire x1="279.4" y1="139.7" x2="279.4" y2="144.78" width="0.1524" layer="91"/>
 <pinref part="P+1" gate="1" pin="+12V"/>
@@ -5183,7 +5182,7 @@ Source: http://www.abracon.com/Oscillators/asf1-L-L1.pdf</description>
 <pinref part="R15" gate="G$1" pin="2"/>
 <wire x1="213.36" y1="134.62" x2="248.92" y2="134.62" width="0.1524" layer="91"/>
 <junction x="248.92" y="134.62"/>
-<pinref part="X1" gate="G$1" pin="3"/>
+<pinref part="X2" gate="G$1" pin="3"/>
 </segment>
 </net>
 <net name="IO_CH1" class="0">
@@ -5200,7 +5199,7 @@ Source: http://www.abracon.com/Oscillators/asf1-L-L1.pdf</description>
 <pinref part="R14" gate="G$1" pin="2"/>
 <wire x1="251.46" y1="137.16" x2="213.36" y2="137.16" width="0.1524" layer="91"/>
 <junction x="251.46" y="137.16"/>
-<pinref part="X1" gate="G$1" pin="2"/>
+<pinref part="X2" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="IN_CH3" class="0">
@@ -5212,7 +5211,7 @@ Source: http://www.abracon.com/Oscillators/asf1-L-L1.pdf</description>
 <wire x1="241.3" y1="157.48" x2="241.3" y2="132.08" width="0.1524" layer="91"/>
 <junction x="241.3" y="132.08"/>
 <label x="256.54" y="132.08" size="1.778" layer="95"/>
-<pinref part="X1" gate="G$1" pin="4"/>
+<pinref part="X2" gate="G$1" pin="4"/>
 <pinref part="R4" gate="G$1" pin="2"/>
 </segment>
 </net>
@@ -5225,7 +5224,7 @@ Source: http://www.abracon.com/Oscillators/asf1-L-L1.pdf</description>
 <wire x1="238.76" y1="152.4" x2="238.76" y2="129.54" width="0.1524" layer="91"/>
 <junction x="238.76" y="129.54"/>
 <label x="256.54" y="129.54" size="1.778" layer="95"/>
-<pinref part="X1" gate="G$1" pin="5"/>
+<pinref part="X2" gate="G$1" pin="5"/>
 <pinref part="R5" gate="G$1" pin="2"/>
 </segment>
 </net>
@@ -5640,18 +5639,19 @@ ADC1_13</text>
 <text x="99.06" y="182.88" size="1.778" layer="150" rot="MR90">USART6</text>
 <text x="254" y="205.74" size="1.778" layer="150">TIM9_CH1</text>
 <text x="254" y="203.2" size="1.778" layer="150">TIM9_CH2</text>
+<text x="134.62" y="198.12" size="1.778" layer="150">TIM1_CH1</text>
 </plain>
 <instances>
-<instance part="H4" gate="G$1" x="119.38" y="154.94"/>
-<instance part="H5" gate="G$1" x="129.54" y="154.94"/>
-<instance part="R22" gate="G$1" x="119.38" y="144.78" rot="R90"/>
-<instance part="R23" gate="G$1" x="129.54" y="144.78" rot="R90"/>
-<instance part="GND7" gate="1" x="119.38" y="137.16"/>
-<instance part="GND20" gate="1" x="129.54" y="137.16"/>
-<instance part="H6" gate="G$1" x="109.22" y="154.94"/>
-<instance part="R26" gate="G$1" x="109.22" y="144.78" rot="R90"/>
-<instance part="GND21" gate="1" x="109.22" y="137.16"/>
-<instance part="+3V2" gate="G$1" x="109.22" y="165.1"/>
+<instance part="H4" gate="G$1" x="289.56" y="172.72"/>
+<instance part="H5" gate="G$1" x="299.72" y="172.72"/>
+<instance part="R22" gate="G$1" x="289.56" y="162.56" rot="R90"/>
+<instance part="R23" gate="G$1" x="299.72" y="162.56" rot="R90"/>
+<instance part="GND7" gate="1" x="289.56" y="154.94"/>
+<instance part="GND20" gate="1" x="299.72" y="154.94"/>
+<instance part="H6" gate="G$1" x="279.4" y="172.72"/>
+<instance part="R26" gate="G$1" x="279.4" y="162.56" rot="R90"/>
+<instance part="GND21" gate="1" x="279.4" y="154.94"/>
+<instance part="+3V2" gate="G$1" x="279.4" y="182.88"/>
 <instance part="D3" gate="G$1" x="200.66" y="60.96"/>
 <instance part="R27" gate="G$1" x="165.1" y="76.2" rot="R90"/>
 <instance part="R30" gate="G$1" x="172.72" y="76.2" rot="R90"/>
@@ -5738,7 +5738,7 @@ ADC1_13</text>
 <segment>
 <pinref part="+3V2" gate="G$1" pin="+3V3"/>
 <pinref part="H6" gate="G$1" pin="A"/>
-<wire x1="109.22" y1="162.56" x2="109.22" y2="157.48" width="0.1524" layer="91"/>
+<wire x1="279.4" y1="180.34" x2="279.4" y2="175.26" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="R27" gate="G$1" pin="2"/>
@@ -5788,19 +5788,19 @@ ADC1_13</text>
 <net name="LED_RED" class="0">
 <segment>
 <pinref part="H4" gate="G$1" pin="A"/>
-<wire x1="175.26" y1="165.1" x2="119.38" y2="165.1" width="0.1524" layer="91"/>
-<wire x1="119.38" y1="165.1" x2="119.38" y2="157.48" width="0.1524" layer="91"/>
 <label x="157.48" y="165.1" size="1.778" layer="95"/>
-<pinref part="D1" gate="G$2" pin="PB8"/>
+<wire x1="289.56" y1="175.26" x2="289.56" y2="193.04" width="0.1524" layer="91"/>
+<pinref part="D1" gate="G$2" pin="PC9"/>
+<wire x1="289.56" y1="193.04" x2="223.52" y2="193.04" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="LED_GRN" class="0">
 <segment>
 <pinref part="H5" gate="G$1" pin="A"/>
-<wire x1="175.26" y1="162.56" x2="129.54" y2="162.56" width="0.1524" layer="91"/>
-<wire x1="129.54" y1="162.56" x2="129.54" y2="157.48" width="0.1524" layer="91"/>
 <label x="157.48" y="162.56" size="1.778" layer="95"/>
-<pinref part="D1" gate="G$2" pin="PB9"/>
+<pinref part="D1" gate="G$2" pin="PC8"/>
+<wire x1="223.52" y1="195.58" x2="299.72" y2="195.58" width="0.1524" layer="91"/>
+<wire x1="299.72" y1="195.58" x2="299.72" y2="175.26" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$5" class="0">
@@ -5974,6 +5974,13 @@ ADC1_13</text>
 <junction x="172.72" y="121.92"/>
 </segment>
 </net>
+<net name="GPS1PPS" class="0">
+<segment>
+<pinref part="D1" gate="G$2" pin="PA8"/>
+<wire x1="175.26" y1="198.12" x2="147.32" y2="198.12" width="0.1524" layer="91"/>
+<label x="149.86" y="198.12" size="1.778" layer="95"/>
+</segment>
+</net>
 </nets>
 </sheet>
 <sheet>
@@ -5984,7 +5991,7 @@ ADC1_13</text>
 <instance part="A2" gate="G$1" x="190.5" y="167.64"/>
 <instance part="GND12" gate="1" x="167.64" y="137.16"/>
 <instance part="GND13" gate="1" x="223.52" y="139.7"/>
-<instance part="LED2" gate="G$1" x="154.94" y="170.18" smashed="yes" rot="MR90">
+<instance part="H1" gate="G$1" x="154.94" y="170.18" smashed="yes" rot="MR90">
 <attribute name="NAME" x="150.368" y="173.736" size="1.778" layer="95" rot="MR180"/>
 <attribute name="VALUE" x="150.368" y="166.116" size="1.778" layer="96" rot="MR180"/>
 </instance>
@@ -5995,7 +6002,7 @@ ADC1_13</text>
 <instance part="GND15" gate="1" x="236.22" y="172.72"/>
 <instance part="R7" gate="G$1" x="154.94" y="154.94"/>
 <instance part="L3" gate="G$1" x="139.7" y="154.94"/>
-<instance part="X2" gate="G$1" x="114.3" y="154.94"/>
+<instance part="X4" gate="G$1" x="114.3" y="154.94"/>
 <instance part="R8" gate="G$1" x="233.68" y="147.32"/>
 <instance part="GND17" gate="1" x="241.3" y="139.7"/>
 <instance part="FRAME4" gate="G$1" x="0" y="0"/>
@@ -6023,10 +6030,10 @@ ADC1_13</text>
 <wire x1="172.72" y1="160.02" x2="167.64" y2="160.02" width="0.1524" layer="91"/>
 <wire x1="167.64" y1="160.02" x2="167.64" y2="149.86" width="0.1524" layer="91"/>
 <junction x="167.64" y="149.86"/>
-<pinref part="X2" gate="G$1" pin="1"/>
+<pinref part="X4" gate="G$1" pin="1"/>
 <wire x1="119.38" y1="157.48" x2="124.46" y2="157.48" width="0.1524" layer="91"/>
 <wire x1="124.46" y1="157.48" x2="124.46" y2="152.4" width="0.1524" layer="91"/>
-<pinref part="X2" gate="G$1" pin="3"/>
+<pinref part="X4" gate="G$1" pin="3"/>
 <wire x1="124.46" y1="152.4" x2="119.38" y2="152.4" width="0.1524" layer="91"/>
 <wire x1="124.46" y1="152.4" x2="124.46" y2="142.24" width="0.1524" layer="91"/>
 <junction x="124.46" y="152.4"/>
@@ -6110,21 +6117,26 @@ ADC1_13</text>
 <junction x="175.26" y="114.3"/>
 </segment>
 </net>
-<net name="N$16" class="0">
+<net name="GPS1PPS" class="0">
 <segment>
 <pinref part="A2" gate="G$1" pin="PPS"/>
-<wire x1="172.72" y1="170.18" x2="157.48" y2="170.18" width="0.1524" layer="91"/>
-<pinref part="LED2" gate="G$1" pin="A"/>
+<wire x1="172.72" y1="170.18" x2="162.56" y2="170.18" width="0.1524" layer="91"/>
+<pinref part="H1" gate="G$1" pin="A"/>
+<wire x1="162.56" y1="170.18" x2="157.48" y2="170.18" width="0.1524" layer="91"/>
+<wire x1="162.56" y1="170.18" x2="162.56" y2="182.88" width="0.1524" layer="91"/>
+<junction x="162.56" y="170.18"/>
+<wire x1="162.56" y1="182.88" x2="132.08" y2="182.88" width="0.1524" layer="91"/>
+<label x="134.62" y="182.88" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$17" class="0">
 <segment>
-<pinref part="LED2" gate="G$1" pin="C"/>
+<pinref part="H1" gate="G$1" pin="C"/>
 <pinref part="R6" gate="G$1" pin="2"/>
 <wire x1="149.86" y1="170.18" x2="147.32" y2="170.18" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$18" class="0">
+<net name="VCCRF" class="0">
 <segment>
 <pinref part="A2" gate="G$1" pin="VCCRF1"/>
 <wire x1="172.72" y1="154.94" x2="170.18" y2="154.94" width="0.1524" layer="91"/>
@@ -6136,7 +6148,7 @@ ADC1_13</text>
 <pinref part="R7" gate="G$1" pin="2"/>
 </segment>
 </net>
-<net name="N$19" class="0">
+<net name="GPSRF" class="0">
 <segment>
 <pinref part="A2" gate="G$1" pin="RFIN"/>
 <pinref part="L3" gate="G$1" pin="1"/>
@@ -6145,7 +6157,7 @@ ADC1_13</text>
 <wire x1="172.72" y1="147.32" x2="129.54" y2="147.32" width="0.1524" layer="91"/>
 <wire x1="129.54" y1="147.32" x2="129.54" y2="154.94" width="0.1524" layer="91"/>
 <junction x="129.54" y="154.94"/>
-<pinref part="X2" gate="G$1" pin="2"/>
+<pinref part="X4" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="GPSRXD" class="0">
