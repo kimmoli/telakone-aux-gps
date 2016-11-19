@@ -4451,7 +4451,7 @@ Source: http://www.abracon.com/Oscillators/asf1-L-L1.pdf</description>
 <variantdefs>
 </variantdefs>
 <classes>
-<class number="0" name="default" width="0.2" drill="0.3">
+<class number="0" name="default" width="0" drill="0">
 </class>
 <class number="2" name="other" width="0.3" drill="0.3">
 <clearance class="1" value="1"/>
@@ -4538,7 +4538,7 @@ Source: http://www.abracon.com/Oscillators/asf1-L-L1.pdf</description>
 <part name="R47" library="omat_ic_2" deviceset="RES" device="0603" value="100"/>
 <part name="GND1" library="EKE" deviceset="GND" device=""/>
 <part name="+3V5" library="EKE" deviceset="+3V3" device=""/>
-<part name="A2" library="omat_ic_2" deviceset="UBLOX-NEO6" device=""/>
+<part name="A1" library="omat_ic_2" deviceset="UBLOX-NEO6" device=""/>
 <part name="GND12" library="EKE" deviceset="GND" device=""/>
 <part name="GND13" library="EKE" deviceset="GND" device=""/>
 <part name="H1" library="omat_ic_2" deviceset="LED" device="CHIP-LED0603" value="GRN"/>
@@ -4586,13 +4586,13 @@ Source: http://www.abracon.com/Oscillators/asf1-L-L1.pdf</description>
 <part name="C8" library="omat_ic_2" deviceset="CAP" device="0603" value="10n"/>
 <part name="C10" library="omat_ic_2" deviceset="CAP" device="0603" value="10n"/>
 <part name="X2" library="omat_ic_2" deviceset="MPT0.5/8-2.54" device=""/>
-<part name="H4" library="omat_ic_2" deviceset="LED" device="CHIP-LED0603" value="RED"/>
-<part name="H5" library="omat_ic_2" deviceset="LED" device="CHIP-LED0603" value="GRN"/>
+<part name="H2" library="omat_ic_2" deviceset="LED" device="CHIP-LED0603" value="RED"/>
+<part name="H3" library="omat_ic_2" deviceset="LED" device="CHIP-LED0603" value="GRN"/>
 <part name="R22" library="omat_ic_2" deviceset="RES" device="0603" value="499"/>
 <part name="R23" library="omat_ic_2" deviceset="RES" device="0603" value="499"/>
 <part name="GND7" library="EKE" deviceset="GND" device=""/>
 <part name="GND20" library="EKE" deviceset="GND" device=""/>
-<part name="H6" library="omat_ic_2" deviceset="LED" device="CHIP-LED0603" value="GRN"/>
+<part name="H4" library="omat_ic_2" deviceset="LED" device="CHIP-LED0603" value="GRN"/>
 <part name="R26" library="omat_ic_2" deviceset="RES" device="0603" value="499"/>
 <part name="GND21" library="EKE" deviceset="GND" device=""/>
 <part name="+3V2" library="EKE" deviceset="+3V3" device=""/>
@@ -5646,13 +5646,13 @@ ADC1_13</text>
 <text x="134.62" y="198.12" size="1.778" layer="150">TIM1_CH1</text>
 </plain>
 <instances>
-<instance part="H4" gate="G$1" x="289.56" y="172.72"/>
-<instance part="H5" gate="G$1" x="299.72" y="172.72"/>
+<instance part="H2" gate="G$1" x="289.56" y="172.72"/>
+<instance part="H3" gate="G$1" x="299.72" y="172.72"/>
 <instance part="R22" gate="G$1" x="289.56" y="162.56" rot="R90"/>
 <instance part="R23" gate="G$1" x="299.72" y="162.56" rot="R90"/>
 <instance part="GND7" gate="1" x="289.56" y="154.94"/>
 <instance part="GND20" gate="1" x="299.72" y="154.94"/>
-<instance part="H6" gate="G$1" x="279.4" y="172.72"/>
+<instance part="H4" gate="G$1" x="279.4" y="172.72"/>
 <instance part="R26" gate="G$1" x="279.4" y="162.56" rot="R90"/>
 <instance part="GND21" gate="1" x="279.4" y="154.94"/>
 <instance part="+3V2" gate="G$1" x="279.4" y="182.88"/>
@@ -5741,7 +5741,7 @@ ADC1_13</text>
 <net name="+3V3" class="3">
 <segment>
 <pinref part="+3V2" gate="G$1" pin="+3V3"/>
-<pinref part="H6" gate="G$1" pin="A"/>
+<pinref part="H4" gate="G$1" pin="A"/>
 <wire x1="279.4" y1="180.34" x2="279.4" y2="175.26" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -5780,18 +5780,18 @@ ADC1_13</text>
 <net name="N$2" class="0">
 <segment>
 <pinref part="R23" gate="G$1" pin="2"/>
-<pinref part="H5" gate="G$1" pin="C"/>
+<pinref part="H3" gate="G$1" pin="C"/>
 </segment>
 </net>
 <net name="N$3" class="0">
 <segment>
-<pinref part="H4" gate="G$1" pin="C"/>
+<pinref part="H2" gate="G$1" pin="C"/>
 <pinref part="R22" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="LED_RED" class="0">
 <segment>
-<pinref part="H4" gate="G$1" pin="A"/>
+<pinref part="H2" gate="G$1" pin="A"/>
 <label x="157.48" y="165.1" size="1.778" layer="95"/>
 <wire x1="289.56" y1="175.26" x2="289.56" y2="193.04" width="0.1524" layer="91"/>
 <pinref part="D1" gate="G$2" pin="PC9"/>
@@ -5800,7 +5800,7 @@ ADC1_13</text>
 </net>
 <net name="LED_GRN" class="0">
 <segment>
-<pinref part="H5" gate="G$1" pin="A"/>
+<pinref part="H3" gate="G$1" pin="A"/>
 <label x="157.48" y="162.56" size="1.778" layer="95"/>
 <pinref part="D1" gate="G$2" pin="PC8"/>
 <wire x1="223.52" y1="195.58" x2="299.72" y2="195.58" width="0.1524" layer="91"/>
@@ -5809,7 +5809,7 @@ ADC1_13</text>
 </net>
 <net name="N$5" class="0">
 <segment>
-<pinref part="H6" gate="G$1" pin="C"/>
+<pinref part="H4" gate="G$1" pin="C"/>
 <pinref part="R26" gate="G$1" pin="2"/>
 </segment>
 </net>
@@ -5992,7 +5992,7 @@ ADC1_13</text>
 <plain>
 </plain>
 <instances>
-<instance part="A2" gate="G$1" x="190.5" y="167.64"/>
+<instance part="A1" gate="G$1" x="190.5" y="167.64"/>
 <instance part="GND12" gate="1" x="167.64" y="137.16"/>
 <instance part="GND13" gate="1" x="223.52" y="139.7"/>
 <instance part="H1" gate="G$1" x="154.94" y="170.18" smashed="yes" rot="MR90">
@@ -6021,16 +6021,16 @@ ADC1_13</text>
 <nets>
 <net name="GND" class="2">
 <segment>
-<pinref part="A2" gate="G$1" pin="GND1"/>
+<pinref part="A1" gate="G$1" pin="GND1"/>
 <pinref part="GND12" gate="1" pin="GND"/>
 <wire x1="172.72" y1="149.86" x2="167.64" y2="149.86" width="0.1524" layer="91"/>
 <wire x1="167.64" y1="149.86" x2="167.64" y2="144.78" width="0.1524" layer="91"/>
-<pinref part="A2" gate="G$1" pin="GND2"/>
+<pinref part="A1" gate="G$1" pin="GND2"/>
 <wire x1="167.64" y1="144.78" x2="167.64" y2="142.24" width="0.1524" layer="91"/>
 <wire x1="167.64" y1="142.24" x2="167.64" y2="139.7" width="0.1524" layer="91"/>
 <wire x1="172.72" y1="144.78" x2="167.64" y2="144.78" width="0.1524" layer="91"/>
 <junction x="167.64" y="144.78"/>
-<pinref part="A2" gate="G$1" pin="VDDUSB"/>
+<pinref part="A1" gate="G$1" pin="VDDUSB"/>
 <wire x1="172.72" y1="160.02" x2="167.64" y2="160.02" width="0.1524" layer="91"/>
 <wire x1="167.64" y1="160.02" x2="167.64" y2="149.86" width="0.1524" layer="91"/>
 <junction x="167.64" y="149.86"/>
@@ -6045,16 +6045,16 @@ ADC1_13</text>
 <junction x="167.64" y="142.24"/>
 </segment>
 <segment>
-<pinref part="A2" gate="G$1" pin="GND"/>
+<pinref part="A1" gate="G$1" pin="GND"/>
 <pinref part="GND13" gate="1" pin="GND"/>
 <wire x1="218.44" y1="175.26" x2="223.52" y2="175.26" width="0.1524" layer="91"/>
 <wire x1="223.52" y1="175.26" x2="223.52" y2="170.18" width="0.1524" layer="91"/>
-<pinref part="A2" gate="G$1" pin="GND3"/>
+<pinref part="A1" gate="G$1" pin="GND3"/>
 <wire x1="223.52" y1="170.18" x2="223.52" y2="144.78" width="0.1524" layer="91"/>
 <wire x1="223.52" y1="144.78" x2="223.52" y2="142.24" width="0.1524" layer="91"/>
 <wire x1="218.44" y1="144.78" x2="223.52" y2="144.78" width="0.1524" layer="91"/>
 <junction x="223.52" y="144.78"/>
-<pinref part="A2" gate="G$1" pin="VBKUP"/>
+<pinref part="A1" gate="G$1" pin="VBKUP"/>
 <wire x1="218.44" y1="170.18" x2="223.52" y2="170.18" width="0.1524" layer="91"/>
 <junction x="223.52" y="170.18"/>
 </segment>
@@ -6100,7 +6100,7 @@ ADC1_13</text>
 </net>
 <net name="+3V3" class="3">
 <segment>
-<pinref part="A2" gate="G$1" pin="VCC"/>
+<pinref part="A1" gate="G$1" pin="VCC"/>
 <wire x1="218.44" y1="172.72" x2="228.6" y2="172.72" width="0.1524" layer="91"/>
 <wire x1="228.6" y1="172.72" x2="228.6" y2="185.42" width="0.1524" layer="91"/>
 <pinref part="+3V6" gate="G$1" pin="+3V3"/>
@@ -6123,7 +6123,7 @@ ADC1_13</text>
 </net>
 <net name="GPS1PPS" class="0">
 <segment>
-<pinref part="A2" gate="G$1" pin="PPS"/>
+<pinref part="A1" gate="G$1" pin="PPS"/>
 <wire x1="172.72" y1="170.18" x2="162.56" y2="170.18" width="0.1524" layer="91"/>
 <pinref part="H1" gate="G$1" pin="A"/>
 <wire x1="162.56" y1="170.18" x2="157.48" y2="170.18" width="0.1524" layer="91"/>
@@ -6142,9 +6142,9 @@ ADC1_13</text>
 </net>
 <net name="VCCRF" class="0">
 <segment>
-<pinref part="A2" gate="G$1" pin="VCCRF1"/>
+<pinref part="A1" gate="G$1" pin="VCCRF1"/>
 <wire x1="172.72" y1="154.94" x2="170.18" y2="154.94" width="0.1524" layer="91"/>
-<pinref part="A2" gate="G$1" pin="VCCRF2"/>
+<pinref part="A1" gate="G$1" pin="VCCRF2"/>
 <wire x1="170.18" y1="154.94" x2="160.02" y2="154.94" width="0.1524" layer="91"/>
 <wire x1="172.72" y1="152.4" x2="170.18" y2="152.4" width="0.1524" layer="91"/>
 <wire x1="170.18" y1="152.4" x2="170.18" y2="154.94" width="0.1524" layer="91"/>
@@ -6154,7 +6154,7 @@ ADC1_13</text>
 </net>
 <net name="GPSRF" class="0">
 <segment>
-<pinref part="A2" gate="G$1" pin="RFIN"/>
+<pinref part="A1" gate="G$1" pin="RFIN"/>
 <pinref part="L3" gate="G$1" pin="1"/>
 <wire x1="134.62" y1="154.94" x2="129.54" y2="154.94" width="0.1524" layer="91"/>
 <wire x1="129.54" y1="154.94" x2="119.38" y2="154.94" width="0.1524" layer="91"/>
@@ -6166,14 +6166,14 @@ ADC1_13</text>
 </net>
 <net name="GPSRXD" class="0">
 <segment>
-<pinref part="A2" gate="G$1" pin="RXD"/>
+<pinref part="A1" gate="G$1" pin="RXD"/>
 <wire x1="218.44" y1="167.64" x2="261.62" y2="167.64" width="0.1524" layer="91"/>
 <label x="248.92" y="167.64" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="GPSTXD" class="0">
 <segment>
-<pinref part="A2" gate="G$1" pin="TXD"/>
+<pinref part="A1" gate="G$1" pin="TXD"/>
 <wire x1="218.44" y1="165.1" x2="261.62" y2="165.1" width="0.1524" layer="91"/>
 <label x="248.92" y="165.1" size="1.778" layer="95"/>
 </segment>
@@ -6187,14 +6187,14 @@ ADC1_13</text>
 </net>
 <net name="N$21" class="0">
 <segment>
-<pinref part="A2" gate="G$1" pin="MOSI/CFGC0"/>
+<pinref part="A1" gate="G$1" pin="MOSI/CFGC0"/>
 <pinref part="R8" gate="G$1" pin="1"/>
 <wire x1="218.44" y1="147.32" x2="228.6" y2="147.32" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="GPSSDA" class="0">
 <segment>
-<pinref part="A2" gate="G$1" pin="SDA"/>
+<pinref part="A1" gate="G$1" pin="SDA"/>
 <wire x1="218.44" y1="160.02" x2="248.92" y2="160.02" width="0.1524" layer="91"/>
 <label x="231.14" y="160.02" size="1.778" layer="95"/>
 <pinref part="D5" gate="G$1" pin="SDA"/>
@@ -6205,7 +6205,7 @@ ADC1_13</text>
 <net name="GPSSCL" class="0">
 <segment>
 <wire x1="251.46" y1="109.22" x2="251.46" y2="162.56" width="0.1524" layer="91"/>
-<pinref part="A2" gate="G$1" pin="SCL"/>
+<pinref part="A1" gate="G$1" pin="SCL"/>
 <wire x1="251.46" y1="162.56" x2="218.44" y2="162.56" width="0.1524" layer="91"/>
 <label x="231.14" y="162.56" size="1.778" layer="95"/>
 <pinref part="D5" gate="G$1" pin="SCL"/>

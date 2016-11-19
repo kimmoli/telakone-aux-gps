@@ -16,14 +16,14 @@
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="yes"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
@@ -37,19 +37,19 @@
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
-<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
-<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
-<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
-<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
-<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
@@ -65,64 +65,64 @@
 <layer number="98" name="Guide" color="6" fill="1" visible="no" active="no"/>
 <layer number="99" name="SpiceOrder" color="7" fill="1" visible="no" active="no"/>
 <layer number="100" name="3Restrict" color="13" fill="10" visible="no" active="yes"/>
-<layer number="101" name="Hidden" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="102" name="Changes" color="12" fill="1" visible="yes" active="yes"/>
+<layer number="101" name="Hidden" color="15" fill="1" visible="no" active="yes"/>
+<layer number="102" name="Changes" color="12" fill="1" visible="no" active="yes"/>
 <layer number="103" name="2Restrict" color="1" fill="10" visible="no" active="yes"/>
-<layer number="104" name="Name" color="16" fill="1" visible="yes" active="yes"/>
-<layer number="105" name="tPlate" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="106" name="bPlate" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="107" name="Crop" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="108" name="fp8" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="109" name="fp9" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="110" name="fp0" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="104" name="Name" color="16" fill="1" visible="no" active="yes"/>
+<layer number="105" name="tPlate" color="7" fill="1" visible="no" active="yes"/>
+<layer number="106" name="bPlate" color="7" fill="1" visible="no" active="yes"/>
+<layer number="107" name="Crop" color="7" fill="1" visible="no" active="yes"/>
+<layer number="108" name="fp8" color="7" fill="1" visible="no" active="yes"/>
+<layer number="109" name="fp9" color="7" fill="1" visible="no" active="yes"/>
+<layer number="110" name="fp0" color="7" fill="1" visible="no" active="yes"/>
 <layer number="111" name="LPC17xx" color="7" fill="1" visible="no" active="yes"/>
 <layer number="112" name="tSilk" color="7" fill="1" visible="no" active="yes"/>
-<layer number="116" name="Patch_BOT" color="9" fill="4" visible="yes" active="yes"/>
-<layer number="118" name="Rect_Pads" color="4" fill="1" visible="yes" active="yes"/>
-<layer number="120" name="120" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="121" name="121" color="6" fill="1" visible="yes" active="yes"/>
-<layer number="122" name="122" color="11" fill="10" visible="yes" active="yes"/>
-<layer number="123" name="tTestmark" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="124" name="bTestmark" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="116" name="Patch_BOT" color="9" fill="4" visible="no" active="yes"/>
+<layer number="118" name="Rect_Pads" color="4" fill="1" visible="no" active="yes"/>
+<layer number="120" name="120" color="7" fill="1" visible="no" active="yes"/>
+<layer number="121" name="121" color="6" fill="1" visible="no" active="yes"/>
+<layer number="122" name="122" color="11" fill="10" visible="no" active="yes"/>
+<layer number="123" name="tTestmark" color="7" fill="1" visible="no" active="yes"/>
+<layer number="124" name="bTestmark" color="7" fill="1" visible="no" active="yes"/>
 <layer number="125" name="_tNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="126" name="_bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="127" name="_tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="128" name="_bValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="131" name="tAdjust" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="132" name="bAdjust" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="144" name="Drill_legend" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="150" name="Notes" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="151" name="HeatSink" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="131" name="tAdjust" color="7" fill="1" visible="no" active="yes"/>
+<layer number="132" name="bAdjust" color="7" fill="1" visible="no" active="yes"/>
+<layer number="144" name="Drill_legend" color="7" fill="1" visible="no" active="yes"/>
+<layer number="150" name="Notes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="151" name="HeatSink" color="7" fill="1" visible="no" active="yes"/>
 <layer number="152" name="_bDocu" color="7" fill="1" visible="no" active="yes"/>
-<layer number="153" name="FabDoc1" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="154" name="FabDoc2" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="155" name="FabDoc3" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="199" name="Contour" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="200" name="200bmp" color="1" fill="10" visible="yes" active="yes"/>
-<layer number="201" name="201bmp" color="2" fill="10" visible="yes" active="yes"/>
-<layer number="202" name="202bmp" color="3" fill="10" visible="yes" active="yes"/>
-<layer number="203" name="203bmp" color="4" fill="10" visible="yes" active="yes"/>
-<layer number="204" name="204bmp" color="5" fill="10" visible="yes" active="yes"/>
-<layer number="205" name="205bmp" color="6" fill="10" visible="yes" active="yes"/>
-<layer number="206" name="206bmp" color="7" fill="10" visible="yes" active="yes"/>
-<layer number="207" name="207bmp" color="8" fill="10" visible="yes" active="yes"/>
-<layer number="208" name="208bmp" color="9" fill="10" visible="yes" active="yes"/>
-<layer number="209" name="209bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="210" name="210bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="211" name="211bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="212" name="212bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="213" name="213bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="214" name="214bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="215" name="215bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="216" name="216bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="217" name="217bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="218" name="218bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="219" name="219bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="220" name="220bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="221" name="221bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="222" name="222bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="223" name="223bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="224" name="224bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="153" name="FabDoc1" color="7" fill="1" visible="no" active="yes"/>
+<layer number="154" name="FabDoc2" color="7" fill="1" visible="no" active="yes"/>
+<layer number="155" name="FabDoc3" color="7" fill="1" visible="no" active="yes"/>
+<layer number="199" name="Contour" color="7" fill="1" visible="no" active="yes"/>
+<layer number="200" name="200bmp" color="1" fill="10" visible="no" active="yes"/>
+<layer number="201" name="201bmp" color="2" fill="10" visible="no" active="yes"/>
+<layer number="202" name="202bmp" color="3" fill="10" visible="no" active="yes"/>
+<layer number="203" name="203bmp" color="4" fill="10" visible="no" active="yes"/>
+<layer number="204" name="204bmp" color="5" fill="10" visible="no" active="yes"/>
+<layer number="205" name="205bmp" color="6" fill="10" visible="no" active="yes"/>
+<layer number="206" name="206bmp" color="7" fill="10" visible="no" active="yes"/>
+<layer number="207" name="207bmp" color="8" fill="10" visible="no" active="yes"/>
+<layer number="208" name="208bmp" color="9" fill="10" visible="no" active="yes"/>
+<layer number="209" name="209bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="210" name="210bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="211" name="211bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="212" name="212bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="213" name="213bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="214" name="214bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="215" name="215bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="216" name="216bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="217" name="217bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="218" name="218bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="219" name="219bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="220" name="220bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="221" name="221bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="222" name="222bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="223" name="223bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="224" name="224bmp" color="7" fill="1" visible="no" active="yes"/>
 <layer number="231" name="Eagle3D_PG1" color="7" fill="1" visible="no" active="yes"/>
 <layer number="232" name="Eagle3D_PG2" color="7" fill="1" visible="no" active="yes"/>
 <layer number="233" name="Eagle3D_PG3" color="7" fill="1" visible="no" active="yes"/>
@@ -133,7 +133,7 @@
 <layer number="251" name="SMDround" color="12" fill="11" visible="no" active="no"/>
 <layer number="252" name="BR-BS" color="7" fill="1" visible="no" active="yes"/>
 <layer number="253" name="BR-LS" color="7" fill="1" visible="no" active="yes"/>
-<layer number="254" name="cooling" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="254" name="cooling" color="7" fill="1" visible="no" active="yes"/>
 <layer number="255" name="ZchnBlatt" color="7" fill="1" visible="no" active="yes"/>
 </layers>
 <board>
@@ -142,10 +142,10 @@
 <wire x1="50" y1="0" x2="50" y2="50" width="0" layer="20"/>
 <wire x1="50" y1="50" x2="0" y2="50" width="0" layer="20"/>
 <wire x1="0" y1="50" x2="0" y2="0" width="0" layer="20"/>
-<text x="31.5" y="43.5" size="1" layer="21" rot="R90">PPS</text>
-<text x="33" y="43.5" size="1" layer="21" rot="R90">ERR</text>
-<text x="34.5" y="43.5" size="1" layer="21" rot="R90">RUN</text>
-<text x="36" y="43.5" size="1" layer="21" rot="R90">PWR</text>
+<text x="31.5" y="43.5" size="1" layer="21" font="vector" rot="R90">PPS</text>
+<text x="33" y="43.5" size="1" layer="21" font="vector" rot="R90">ERR</text>
+<text x="34.5" y="43.5" size="1" layer="21" font="vector" rot="R90">RUN</text>
+<text x="36" y="43.5" size="1" layer="21" font="vector" rot="R90">PWR</text>
 <polygon width="0.3" layer="41">
 <vertex x="1.8" y="35.2"/>
 <vertex x="1.4" y="35.2"/>
@@ -158,6 +158,62 @@
 <vertex x="7" y="28"/>
 <vertex x="7" y="22"/>
 <vertex x="1.8" y="22"/>
+</polygon>
+<text x="47.2" y="40.6" size="1.25" layer="22" font="vector" rot="MR0">TX</text>
+<text x="47.2" y="38.2" size="1.25" layer="22" font="vector" rot="MR0">RX</text>
+<text x="47.2" y="35.6" size="1.25" layer="22" font="vector" rot="MR0">GND</text>
+<text x="47.2" y="33.2" size="1.25" layer="22" font="vector" rot="MR0">RSTL</text>
+<text x="47.2" y="30.4" size="1.25" layer="22" font="vector" rot="MR0">GND</text>
+<text x="47.2" y="28" size="1.25" layer="22" font="vector" rot="MR0">SWCLK</text>
+<text x="47.2" y="25.4" size="1.25" layer="22" font="vector" rot="MR0">SWDIO</text>
+<text x="47.2" y="23" size="1.25" layer="22" font="vector" rot="MR0">+3V3</text>
+<text x="8.4" y="5.4" size="1.25" layer="22" font="vector" rot="MR90">GND</text>
+<text x="13.6" y="5.4" size="1.25" layer="22" font="vector" rot="MR90">+12V</text>
+<text x="24" y="4.8" size="1.25" layer="22" font="vector" rot="MR90">+12V</text>
+<text x="26.4" y="4.8" size="1.25" layer="22" font="vector" rot="MR90">IOCH1</text>
+<text x="29" y="4.8" size="1.25" layer="22" font="vector" rot="MR90">IOCH2</text>
+<text x="31.6" y="4.8" size="1.25" layer="22" font="vector" rot="MR90">IOCH3</text>
+<text x="34" y="4.8" size="1.25" layer="22" font="vector" rot="MR90">IOCH4</text>
+<text x="36.6" y="4.8" size="1.25" layer="22" font="vector" rot="MR90">GND</text>
+<text x="39" y="4.8" size="1.25" layer="22" font="vector" rot="MR90">RTXH</text>
+<text x="41.6" y="4.8" size="1.25" layer="22" font="vector" rot="MR90">RTXL</text>
+<text x="11.6" y="36.6" size="1.5" layer="22" rot="MR0" align="bottom-center">TELAKONE GPS
+V1.00
+KIMMOLI 2016</text>
+<polygon width="0.2" layer="22">
+<vertex x="9.866921875" y="29.861525" curve="-6.500028"/>
+<vertex x="9.659459375" y="29.984953125"/>
+<vertex x="8.941765625" y="29.435125"/>
+<vertex x="8.535125" y="29.841765625"/>
+<vertex x="9.084953125" y="30.559459375" curve="-23.000057"/>
+<vertex x="8.760084375" y="31.3437625"/>
+<vertex x="7.8638125" y="31.4624625"/>
+<vertex x="7.8638125" y="32.0375375"/>
+<vertex x="8.760084375" y="32.1562375" curve="-23.000057"/>
+<vertex x="9.084953125" y="32.940540625"/>
+<vertex x="8.535125" y="33.658234375"/>
+<vertex x="8.941765625" y="34.064875"/>
+<vertex x="9.659459375" y="33.515046875" curve="-23.000057"/>
+<vertex x="10.4437625" y="33.839915625"/>
+<vertex x="10.5624625" y="34.7361875"/>
+<vertex x="11.1375375" y="34.7361875"/>
+<vertex x="11.2562375" y="33.839915625" curve="-23.000057"/>
+<vertex x="12.040540625" y="33.515046875"/>
+<vertex x="12.758234375" y="34.064875"/>
+<vertex x="13.164875" y="33.658234375"/>
+<vertex x="12.615046875" y="32.940540625" curve="-23.000057"/>
+<vertex x="12.939915625" y="32.1562375"/>
+<vertex x="13.8361875" y="32.0375375"/>
+<vertex x="13.8361875" y="31.4624625"/>
+<vertex x="12.939915625" y="31.3437625" curve="-23.000057"/>
+<vertex x="12.615046875" y="30.559459375"/>
+<vertex x="13.164875" y="29.841765625"/>
+<vertex x="12.758234375" y="29.435125"/>
+<vertex x="12.040540625" y="29.984953125" curve="-6.500028"/>
+<vertex x="11.833078125" y="29.861525"/>
+<vertex x="11.296853125" y="30.891603125" curve="62.49992"/>
+<vertex x="11.817740625" y="31.75" curve="242.5"/>
+<vertex x="10.403146875" y="30.891603125"/>
 </polygon>
 </plain>
 <libraries>
@@ -906,7 +962,7 @@ Source: http://www.osram.convergy.de/ ... Lb_q993.pdf</description>
 <variantdefs>
 </variantdefs>
 <classes>
-<class number="0" name="default" width="0.2" drill="0.3">
+<class number="0" name="default" width="0" drill="0">
 </class>
 <class number="2" name="other" width="0.3" drill="0.3">
 <clearance class="1" value="1"/>
@@ -1098,97 +1154,353 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="A2" library="omat_ic_2" package="UBLOX-NEO6" value="UBLOX-NEO6" x="9.31" y="47.21" rot="R270"/>
-<element name="C1" library="omat_ic_2" package="C1206" value="10u 25V 1206" x="9.4" y="18.5" rot="R270"/>
-<element name="C10" library="omat_ic_2" package="C0603" value="10n" x="28" y="15" rot="R180"/>
-<element name="C11" library="omat_ic_2" package="C0603" value="100n" x="24.5" y="26.5"/>
-<element name="C12" library="omat_ic_2" package="C0603" value="100n" x="39.5" y="20.5"/>
-<element name="C13" library="omat_ic_2" package="C0603" value="100n" x="40" y="36.5"/>
-<element name="C14" library="omat_ic_2" package="C0603" value="100n" x="41.6" y="27.6"/>
-<element name="C15" library="omat_ic_2" package="C0603" value="100n" x="27" y="24.5" rot="R180"/>
-<element name="C16" library="omat_ic_2" package="C0603" value="100n" x="27" y="36.5" rot="R180"/>
-<element name="C17" library="omat_ic_2" package="C0603" value="2u2" x="39.5" y="19"/>
-<element name="C18" library="omat_ic_2" package="C0603" value="100n" x="43" y="40" rot="R270"/>
-<element name="C19" library="omat_ic_2" package="C0603" value="100n" x="27" y="38.5" rot="R180"/>
-<element name="C2" library="omat_ic_2" package="C1206" value="10u 25V 1206" x="7.4" y="18.5" rot="R270"/>
-<element name="C23" library="omat_ic_2" package="C0603" value="22p" x="27.2" y="22.1" rot="R90"/>
-<element name="C24" library="omat_ic_2" package="C0603" value="22p" x="33" y="20.5" rot="R270"/>
-<element name="C3" library="omat_ic_2" package="C0603" value="100n" x="23.5" y="46.5" rot="R90"/>
-<element name="C4" library="omat_ic_2" package="C0603" value="10n" x="37" y="15"/>
-<element name="C47" library="omat_ic_2" package="C0603" value="10n" x="13.1" y="19.3" rot="R90"/>
-<element name="C49" library="omat_ic_2" package="C0603" value="100n" x="47.9" y="16.7"/>
-<element name="C5" library="omat_ic_2" package="C0603" value="10n" x="33.6" y="15" rot="R180"/>
-<element name="C53" library="omat_ic_2" package="C0805" value="2u2 50V 0805" x="15" y="10.5" rot="R270"/>
-<element name="C6" library="omat_ic_2" package="C1206" value="10u 25V 1206" x="3.9" y="14.5"/>
-<element name="C7" library="omat_ic_2" package="C0603" value="100n 0603" x="2.9" y="16.5"/>
-<element name="C8" library="omat_ic_2" package="C0603" value="10n" x="31" y="15"/>
-<element name="C9" library="omat_ic_2" package="C0805" value="4.7UF 10V X5R 0805" x="41.7" y="33.7"/>
-<element name="D1" library="omat_ic_2" package="LQFP-64" value="STM32F410RB" x="33.4" y="30.39"/>
-<element name="D10" library="omat_ic_2" package="SOT23" value="RT9818C-29GV" x="11" y="24.1" rot="R90"/>
-<element name="D2" library="omat_ic_2" package="SOIC8-N_MC" value="MAX3430_SA" x="43.7" y="19" rot="R270"/>
-<element name="D3" library="omat_ic_2" package="SOIC8-N_MC" value="LM75BD" x="21" y="23.5"/>
-<element name="D4" library="omat_ic_2" package="SOIC8-N_MC" value="S25FL116K" x="39.5" y="42.5" rot="R270"/>
-<element name="D5" library="omat_ic_2" package="TSSOP8-66" value="M24C32-RDW6TP" x="26.5" y="43" rot="R270"/>
-<element name="F1" library="omat_ic_2" package="R1206" value="1A" x="11" y="10" rot="R180"/>
-<element name="G1" library="omat_ic_2" package="X_3225" value="25MHz" x="29.8" y="20.5" rot="R270"/>
-<element name="H4" library="omat_ic_2" package="CHIP-LED0603" value="RED" x="32.5" y="47.5" rot="R90"/>
-<element name="H5" library="omat_ic_2" package="CHIP-LED0603" value="GRN" x="34" y="47.5" rot="R90"/>
-<element name="H6" library="omat_ic_2" package="CHIP-LED0603" value="GRN" x="35.5" y="47.5" rot="R90"/>
-<element name="L2" library="omat_ic_2" package="R0603" value="IND0603" x="39.5" y="17.5"/>
-<element name="L3" library="omat_ic_2" package="R0603" value="27nH" x="6.5" y="35" rot="R90"/>
-<element name="H1" library="omat_ic_2" package="CHIP-LED0603" value="GRN" x="31" y="47.5" rot="R90"/>
-<element name="N1" library="omat_ic_2" package="SOT95P280X145-5N" value="TPS560200DBV" x="2.9" y="19.5" rot="R270"/>
-<element name="R1" library="omat_ic_2" package="R0603" value="61k9" x="5.4" y="20" rot="R270"/>
-<element name="R10" library="omat_ic_2" package="R0603" value="825" x="33.6" y="13.5"/>
-<element name="R11" library="omat_ic_2" package="R0603" value="2k00" x="15" y="13.5"/>
-<element name="R12" library="omat_ic_2" package="R0603" value="2k00" x="18" y="18"/>
-<element name="R13" library="omat_ic_2" package="R0603" value="2k00" x="24" y="13.5"/>
-<element name="R14" library="omat_ic_2" package="R1206" value="5k90 1206" x="28.5" y="10" rot="R270"/>
-<element name="R15" library="omat_ic_2" package="R1206" value="5k90 1206" x="31" y="10" rot="R270"/>
-<element name="R16" library="omat_ic_2" package="R0603" value="2k00" x="13.9" y="22.4" rot="R90"/>
-<element name="R17" library="omat_ic_2" package="R0603" value="825" x="31" y="13.5" rot="R180"/>
-<element name="R18" library="omat_ic_2" package="R0603" value="2k00" x="43" y="43" rot="R270"/>
-<element name="R19" library="omat_ic_2" package="R0603" value="2k00" x="24.6" y="28.3"/>
-<element name="R2" library="omat_ic_2" package="R0603" value="20k0" x="5.4" y="17" rot="R270"/>
-<element name="R20" library="omat_ic_2" package="R0603" value="2k00" x="41.5" y="32.2" rot="R180"/>
-<element name="R21" library="omat_ic_2" package="R0603" value="825" x="28" y="13.5"/>
-<element name="R22" library="omat_ic_2" package="R0603" value="499" x="27" y="49"/>
-<element name="R23" library="omat_ic_2" package="R0603" value="499" x="38.5" y="49" rot="R180"/>
-<element name="R26" library="omat_ic_2" package="R0603" value="499" x="38.5" y="47.7" rot="R180"/>
-<element name="R27" library="omat_ic_2" package="R0603" value="2k00" x="22.4" y="27.6" rot="R270"/>
-<element name="R3" library="omat_ic_2" package="R0603" value="2k00" x="20.9" y="18"/>
-<element name="R30" library="omat_ic_2" package="R0603" value="2k00" x="19.3" y="27.6" rot="R270"/>
-<element name="R35" library="omat_ic_2" package="R1206" value="5k90 1206" x="9" y="14.5"/>
-<element name="R36" library="omat_ic_2" package="R0603" value="825" x="11.8" y="19.3" rot="R270"/>
-<element name="R4" library="omat_ic_2" package="R1206" value="5k90 1206" x="33.5" y="10" rot="R270"/>
-<element name="R42" library="omat_ic_2" package="R0603" value="100" x="45" y="26" rot="R180"/>
-<element name="R47" library="omat_ic_2" package="R0603" value="100" x="45" y="28.5" rot="R180"/>
-<element name="R5" library="omat_ic_2" package="R1206" value="5k90 1206" x="36" y="10" rot="R270"/>
-<element name="R58" library="omat_ic_2" package="R1206" value="121 1206" x="43.5" y="13.8" rot="R180"/>
-<element name="R59" library="omat_ic_2" package="R0603" value="2k00" x="48" y="19" rot="R180"/>
-<element name="R6" library="omat_ic_2" package="R0603" value="499" x="27" y="47.7"/>
-<element name="R7" library="omat_ic_2" package="R0603" value="10" x="6.5" y="37.5"/>
-<element name="R8" library="omat_ic_2" package="R0603" value="0R-DNP" x="23.5" y="33.5" rot="R270"/>
-<element name="R9" library="omat_ic_2" package="R0603" value="825" x="37" y="13.5" rot="R180"/>
-<element name="U$5" library="dafug" package="DAFUG" value="DAFUG" x="3.4" y="40.87"/>
-<element name="V10" library="omat_ic_2" package="DO214AC" value="SK34A" x="21" y="6.5" rot="R90"/>
-<element name="V16" library="omat_ic_2" package="DO214AC" value="SMAJ20A" x="4.6" y="10" rot="R180"/>
-<element name="V2" library="omat_ic_2" package="SOIC8-N_MC" value="AO4803A" x="19.5" y="13.5" rot="R270"/>
-<element name="V23" library="omat_ic_2" package="SOT23" value="SM712" x="43.5" y="10.3"/>
-<element name="V27" library="omat_ic_2" package="SOT23-6" value="ESDA19SC6" x="25" y="10" rot="R90"/>
-<element name="V3" library="omat_ic_2" package="SOT23" value="2N7002K" x="15" y="16.5"/>
-<element name="V5" library="omat_ic_2" package="SOT23" value="2N7002K" x="24" y="16.5"/>
-<element name="V8" library="omat_ic_2" package="DO214AC" value="SK34A" x="18.5" y="6.5" rot="R90"/>
-<element name="X2" library="omat_ic_2" package="MPT0.5/8-2.54" value="MPT0.5/8-2.54" x="24.5" y="3.5"/>
-<element name="X4" library="omat_ic_2" package="U.FL-R-SMT-1" value="U.FL-R-SMT-1" x="3" y="34.3" rot="R90"/>
-<element name="X3" library="omat_ic_2" package="PIIKKIRIMA-3" value="PIIKKIRIMA-3" x="48.5" y="41.28" rot="R270"/>
-<element name="X5" library="omat_ic_2" package="PIIKKIRIMA-5" value="PIIKKIRIMA-5" x="48.5" y="23.5" rot="R90"/>
-<element name="X1" library="omat_ic_2" package="TE_RUUVILIITIN2" value="" x="9" y="4"/>
-<element name="Y1" library="EKE" package="PTH-2.6-5.5SQ" value="PTH2.6-5.5SQ" x="3" y="3"/>
-<element name="Y2" library="EKE" package="PTH-2.6-5.5SQ" value="PTH2.6-5.5SQ" x="47" y="3"/>
-<element name="Y3" library="EKE" package="PTH-2.6-5.5SQ" value="PTH2.6-5.5SQ" x="47" y="47"/>
-<element name="Y4" library="EKE" package="PTH-2.6-5.5SQ" value="PTH2.6-5.5SQ" x="3" y="47"/>
-<element name="L1" library="omat_ic_2" package="SRN6045" value="SRN6045-100M" x="4.4" y="25" rot="R180"/>
+<element name="A1" library="omat_ic_2" package="UBLOX-NEO6" value="UBLOX-NEO6" x="9.31" y="47.21" smashed="yes" rot="R270">
+<attribute name="NAME" x="6.39" y="45.41" size="1" layer="25" font="vector"/>
+</element>
+<element name="C1" library="omat_ic_2" package="C1206" value="10u 25V 1206" x="9.4" y="18.5" smashed="yes" rot="R270">
+<attribute name="NAME" x="8.63" y="18.07" size="1" layer="25" font="vector"/>
+<attribute name="VALUE" x="6.86" y="19.77" size="1.27" layer="27" rot="R270"/>
+</element>
+<element name="C10" library="omat_ic_2" package="C0603" value="10n" x="28" y="15" smashed="yes" rot="R180">
+<attribute name="NAME" x="27.165" y="15.835" size="1" layer="25" font="vector"/>
+<attribute name="VALUE" x="28.635" y="16.905" size="0.8128" layer="27" rot="R180"/>
+</element>
+<element name="C11" library="omat_ic_2" package="C0603" value="100n" x="24.5" y="26.5" smashed="yes">
+<attribute name="NAME" x="25.865" y="25.335" size="1" layer="25" font="vector"/>
+<attribute name="VALUE" x="23.865" y="24.595" size="0.8128" layer="27"/>
+</element>
+<element name="C12" library="omat_ic_2" package="C0603" value="100n" x="39.5" y="20.5" smashed="yes">
+<attribute name="NAME" x="38.265" y="21.335" size="1" layer="25" font="vector"/>
+<attribute name="VALUE" x="38.865" y="18.595" size="0.8128" layer="27"/>
+</element>
+<element name="C13" library="omat_ic_2" package="C0603" value="100n" x="40" y="36.5" smashed="yes">
+<attribute name="NAME" x="38.765" y="37.335" size="1" layer="25" font="vector"/>
+<attribute name="VALUE" x="39.365" y="34.595" size="0.8128" layer="27"/>
+</element>
+<element name="C14" library="omat_ic_2" package="C0603" value="100n" x="41.6" y="27.6" smashed="yes">
+<attribute name="NAME" x="40.165" y="28.435" size="1" layer="25" font="vector"/>
+<attribute name="VALUE" x="40.965" y="25.695" size="0.8128" layer="27"/>
+</element>
+<element name="C15" library="omat_ic_2" package="C0603" value="100n" x="27" y="24.5" smashed="yes" rot="R180">
+<attribute name="NAME" x="24.935" y="24.035" size="1" layer="25" font="vector" rot="R270"/>
+<attribute name="VALUE" x="27.635" y="26.405" size="0.8128" layer="27" rot="R180"/>
+</element>
+<element name="C16" library="omat_ic_2" package="C0603" value="100n" x="27" y="36.5" smashed="yes" rot="R180">
+<attribute name="NAME" x="25.365" y="34.735" size="1" layer="25" font="vector"/>
+<attribute name="VALUE" x="27.635" y="38.405" size="0.8128" layer="27" rot="R180"/>
+</element>
+<element name="C17" library="omat_ic_2" package="C0603" value="2u2" x="39.5" y="19" smashed="yes">
+<attribute name="NAME" x="35.465" y="18.635" size="1" layer="25" font="vector"/>
+<attribute name="VALUE" x="38.865" y="17.095" size="0.8128" layer="27"/>
+</element>
+<element name="C18" library="omat_ic_2" package="C0603" value="100n" x="43" y="40" smashed="yes" rot="R270">
+<attribute name="NAME" x="43.965" y="39.435" size="1" layer="25" font="vector"/>
+<attribute name="VALUE" x="41.095" y="40.635" size="0.8128" layer="27" rot="R270"/>
+</element>
+<element name="C19" library="omat_ic_2" package="C0603" value="100n" x="27" y="38.5" smashed="yes" rot="R180">
+<attribute name="NAME" x="28.565" y="38.135" size="1" layer="25" font="vector"/>
+<attribute name="VALUE" x="27.635" y="40.405" size="0.8128" layer="27" rot="R180"/>
+</element>
+<element name="C2" library="omat_ic_2" package="C1206" value="10u 25V 1206" x="7.4" y="18.5" smashed="yes" rot="R270">
+<attribute name="NAME" x="6.63" y="18.07" size="1" layer="25" font="vector"/>
+<attribute name="VALUE" x="4.86" y="19.77" size="1.27" layer="27" rot="R270"/>
+</element>
+<element name="C23" library="omat_ic_2" package="C0603" value="22p" x="27.2" y="22.1" smashed="yes" rot="R90">
+<attribute name="NAME" x="27.735" y="20.565" size="1" layer="25" font="vector" rot="R180"/>
+<attribute name="VALUE" x="29.105" y="21.465" size="0.8128" layer="27" rot="R90"/>
+</element>
+<element name="C24" library="omat_ic_2" package="C0603" value="22p" x="33" y="20.5" smashed="yes" rot="R270">
+<attribute name="NAME" x="33.835" y="21.935" size="1" layer="25" font="vector" rot="R270"/>
+<attribute name="VALUE" x="31.095" y="21.135" size="0.8128" layer="27" rot="R270"/>
+</element>
+<element name="C3" library="omat_ic_2" package="C0603" value="100n" x="23.5" y="46.5" smashed="yes" rot="R90">
+<attribute name="NAME" x="22.865" y="43.135" size="1" layer="25" font="vector"/>
+<attribute name="VALUE" x="25.405" y="45.865" size="0.8128" layer="27" rot="R90"/>
+</element>
+<element name="C4" library="omat_ic_2" package="C0603" value="10n" x="37" y="15" smashed="yes">
+<attribute name="NAME" x="36.365" y="15.635" size="1" layer="25" font="vector"/>
+<attribute name="VALUE" x="36.365" y="13.095" size="0.8128" layer="27"/>
+</element>
+<element name="C47" library="omat_ic_2" package="C0603" value="10n" x="13.1" y="19.3" smashed="yes" rot="R90">
+<attribute name="NAME" x="14.065" y="19.735" size="1" layer="25" font="vector"/>
+<attribute name="VALUE" x="15.005" y="18.665" size="0.8128" layer="27" rot="R90"/>
+</element>
+<element name="C49" library="omat_ic_2" package="C0603" value="100n" x="47.9" y="16.7" smashed="yes">
+<attribute name="NAME" x="47.265" y="17.335" size="1" layer="25" font="vector"/>
+<attribute name="VALUE" x="47.265" y="14.795" size="0.8128" layer="27"/>
+</element>
+<element name="C5" library="omat_ic_2" package="C0603" value="10n" x="33.6" y="15" smashed="yes" rot="R180">
+<attribute name="NAME" x="32.765" y="15.835" size="1" layer="25" font="vector"/>
+<attribute name="VALUE" x="34.235" y="16.905" size="0.8128" layer="27" rot="R180"/>
+</element>
+<element name="C53" library="omat_ic_2" package="C0805" value="2u2 50V 0805" x="15" y="10.5" smashed="yes" rot="R270">
+<attribute name="NAME" x="13.83" y="7.87" size="1" layer="25" font="vector"/>
+<attribute name="VALUE" x="12.46" y="11.77" size="0.8128" layer="27" rot="R270"/>
+</element>
+<element name="C6" library="omat_ic_2" package="C1206" value="10u 25V 1206" x="3.9" y="14.5" smashed="yes">
+<attribute name="NAME" x="1.43" y="12.17" size="1" layer="25" font="vector"/>
+<attribute name="VALUE" x="2.63" y="11.96" size="1.27" layer="27"/>
+</element>
+<element name="C7" library="omat_ic_2" package="C0603" value="100n 0603" x="2.9" y="16.5" smashed="yes">
+<attribute name="NAME" x="1.465" y="16.265" size="1" layer="25" font="vector" rot="R90"/>
+<attribute name="VALUE" x="2.265" y="14.595" size="0.8128" layer="27"/>
+</element>
+<element name="C8" library="omat_ic_2" package="C0603" value="10n" x="31" y="15" smashed="yes">
+<attribute name="NAME" x="30.165" y="15.835" size="1" layer="25" font="vector"/>
+<attribute name="VALUE" x="30.365" y="13.095" size="0.8128" layer="27"/>
+</element>
+<element name="C9" library="omat_ic_2" package="C0805" value="4.7UF 10V X5R 0805" x="41.7" y="33.7" smashed="yes">
+<attribute name="NAME" x="40.83" y="34.77" size="1" layer="25" font="vector"/>
+<attribute name="VALUE" x="40.43" y="31.16" size="0.8128" layer="27"/>
+</element>
+<element name="D1" library="omat_ic_2" package="LQFP-64" value="STM32F410RB" x="33.4" y="30.39" smashed="yes">
+<attribute name="NAME" x="38" y="23.99" size="1" layer="25" font="vector"/>
+</element>
+<element name="D10" library="omat_ic_2" package="SOT23" value="RT9818C-29GV" x="11" y="24.1" smashed="yes" rot="R90">
+<attribute name="NAME" x="10.595" y="25.905" size="1" layer="25" font="vector"/>
+<attribute name="VALUE" x="14.175" y="22.195" size="1.27" layer="27" rot="R90"/>
+</element>
+<element name="D2" library="omat_ic_2" package="SOIC8-N_MC" value="MAX3430_SA" x="43.7" y="19" smashed="yes" rot="R270">
+<attribute name="NAME" x="39.2474" y="14.694" size="1" layer="25" font="vector" ratio="10" rot="SR0"/>
+<attribute name="VALUE" x="40.2456" y="20.7272" size="0.8128" layer="27" ratio="10" rot="SR270"/>
+</element>
+<element name="D3" library="omat_ic_2" package="SOIC8-N_MC" value="LM75BD" x="21" y="23.5" smashed="yes">
+<attribute name="NAME" x="16.2474" y="26.094" size="1" layer="25" font="vector" ratio="10" rot="SR0"/>
+<attribute name="VALUE" x="19.2728" y="20.0456" size="0.8128" layer="27" ratio="10" rot="SR0"/>
+</element>
+<element name="D4" library="omat_ic_2" package="SOIC8-N_MC" value="S25FL116K" x="39.5" y="42.5" smashed="yes" rot="R270">
+<attribute name="NAME" x="35.1474" y="41.294" size="1" layer="25" font="vector" ratio="10" rot="SR0"/>
+<attribute name="VALUE" x="36.0456" y="44.2272" size="0.8128" layer="27" ratio="10" rot="SR270"/>
+</element>
+<element name="D5" library="omat_ic_2" package="TSSOP8-66" value="M24C32-RDW6TP" x="26.5" y="43" smashed="yes" rot="R270">
+<attribute name="NAME" x="28.4656" y="41.44" size="1" layer="25" font="vector" rot="SR0"/>
+</element>
+<element name="F1" library="omat_ic_2" package="R1206" value="1A" x="11" y="10" smashed="yes" rot="R180">
+<attribute name="NAME" x="12.07" y="12.33" size="1" layer="25" font="vector" rot="R180"/>
+<attribute name="VALUE" x="12.27" y="12.54" size="1.27" layer="27" rot="R180"/>
+</element>
+<element name="G1" library="omat_ic_2" package="X_3225" value="25MHz" x="29.8" y="20.5" smashed="yes" rot="R270">
+<attribute name="NAME" x="32.16" y="22.34" size="1" layer="25" font="vector"/>
+<attribute name="VALUE" x="25.99" y="23.04" size="1.27" layer="27" rot="R270"/>
+</element>
+<element name="H2" library="omat_ic_2" package="CHIP-LED0603" value="RED" x="32.5" y="47.5" smashed="yes" rot="R90">
+<attribute name="NAME" x="32.935" y="49.865" size="1" layer="25" font="vector" rot="R180" display="off"/>
+</element>
+<element name="H3" library="omat_ic_2" package="CHIP-LED0603" value="GRN" x="34" y="47.5" smashed="yes" rot="R90">
+<attribute name="NAME" x="33.665" y="48.835" size="1" layer="25" font="vector" display="off"/>
+</element>
+<element name="H4" library="omat_ic_2" package="CHIP-LED0603" value="GRN" x="35.5" y="47.5" smashed="yes" rot="R90">
+<attribute name="NAME" x="35.465" y="48.735" size="1" layer="25" font="vector" display="off"/>
+</element>
+<element name="L2" library="omat_ic_2" package="R0603" value="IND0603" x="39.5" y="17.5" smashed="yes">
+<attribute name="NAME" x="36.265" y="16.935" size="1" layer="25" font="vector"/>
+<attribute name="VALUE" x="38.865" y="15.595" size="0.8128" layer="27"/>
+</element>
+<element name="L3" library="omat_ic_2" package="R0603" value="27nH" x="6.5" y="35" smashed="yes" rot="R90">
+<attribute name="NAME" x="7.635" y="32.465" size="1" layer="25" font="vector" rot="R180"/>
+<attribute name="VALUE" x="8.405" y="34.365" size="0.8128" layer="27" rot="R90"/>
+</element>
+<element name="H1" library="omat_ic_2" package="CHIP-LED0603" value="GRN" x="31" y="47.5" smashed="yes" rot="R90">
+<attribute name="NAME" x="30.165" y="46.865" size="1" layer="25" font="vector" rot="R90" display="off"/>
+</element>
+<element name="N1" library="omat_ic_2" package="SOT95P280X145-5N" value="TPS560200DBV" x="2.9" y="19.5" smashed="yes" rot="R270">
+<attribute name="NAME" x="1.2204" y="18.7502" size="1" layer="25" font="vector" rot="SR90"/>
+<attribute name="VALUE" x="-1.0116" y="25.2658" size="2.0828" layer="27" ratio="10" rot="SR270"/>
+</element>
+<element name="R1" library="omat_ic_2" package="R0603" value="61k9" x="5.4" y="20" smashed="yes" rot="R270">
+<attribute name="NAME" x="7.765" y="21.035" size="1" layer="25" font="vector"/>
+<attribute name="VALUE" x="3.495" y="20.635" size="0.8128" layer="27" rot="R270"/>
+</element>
+<element name="R10" library="omat_ic_2" package="R0603" value="825" x="33.6" y="13.5" smashed="yes">
+<attribute name="NAME" x="35.865" y="12.565" size="1" layer="25" font="vector" rot="R90" display="off"/>
+<attribute name="VALUE" x="32.965" y="11.595" size="0.8128" layer="27"/>
+</element>
+<element name="R11" library="omat_ic_2" package="R0603" value="2k00" x="15" y="13.5" smashed="yes">
+<attribute name="NAME" x="11.565" y="12.935" size="1" layer="25" font="vector" display="off"/>
+<attribute name="VALUE" x="14.365" y="11.595" size="0.8128" layer="27"/>
+</element>
+<element name="R12" library="omat_ic_2" package="R0603" value="2k00" x="18" y="18" smashed="yes">
+<attribute name="NAME" x="16.565" y="18.835" size="1" layer="25" font="vector"/>
+<attribute name="VALUE" x="17.365" y="16.095" size="0.8128" layer="27"/>
+</element>
+<element name="R13" library="omat_ic_2" package="R0603" value="2k00" x="24" y="13.5" smashed="yes">
+<attribute name="NAME" x="23.365" y="14.135" size="1" layer="25" font="vector" display="off"/>
+<attribute name="VALUE" x="23.365" y="11.595" size="0.8128" layer="27"/>
+</element>
+<element name="R14" library="omat_ic_2" package="R1206" value="5k90 1206" x="28.5" y="10" smashed="yes" rot="R270">
+<attribute name="NAME" x="29.77" y="11.27" size="1" layer="25" font="vector" rot="R270" display="off"/>
+<attribute name="VALUE" x="25.96" y="11.27" size="1.27" layer="27" rot="R270"/>
+</element>
+<element name="R15" library="omat_ic_2" package="R1206" value="5k90 1206" x="31" y="10" smashed="yes" rot="R270">
+<attribute name="NAME" x="32.27" y="11.27" size="1" layer="25" font="vector" rot="R270" display="off"/>
+<attribute name="VALUE" x="28.46" y="11.27" size="1.27" layer="27" rot="R270"/>
+</element>
+<element name="R16" library="omat_ic_2" package="R0603" value="2k00" x="13.9" y="22.4" smashed="yes" rot="R90">
+<attribute name="NAME" x="15.665" y="21.165" size="1" layer="25" font="vector" rot="R90"/>
+<attribute name="VALUE" x="15.805" y="21.765" size="0.8128" layer="27" rot="R90"/>
+</element>
+<element name="R17" library="omat_ic_2" package="R0603" value="825" x="31" y="13.5" smashed="yes" rot="R180">
+<attribute name="NAME" x="31.635" y="12.865" size="1" layer="25" font="vector" rot="R180" display="off"/>
+<attribute name="VALUE" x="31.635" y="15.405" size="0.8128" layer="27" rot="R180"/>
+</element>
+<element name="R18" library="omat_ic_2" package="R0603" value="2k00" x="43" y="43" smashed="yes" rot="R270">
+<attribute name="NAME" x="43.965" y="42.435" size="1" layer="25" font="vector"/>
+<attribute name="VALUE" x="41.095" y="43.635" size="0.8128" layer="27" rot="R270"/>
+</element>
+<element name="R19" library="omat_ic_2" package="R0603" value="2k00" x="24.6" y="28.3" smashed="yes">
+<attribute name="NAME" x="23.765" y="29.135" size="1" layer="25" font="vector"/>
+<attribute name="VALUE" x="23.965" y="26.395" size="0.8128" layer="27"/>
+</element>
+<element name="R2" library="omat_ic_2" package="R0603" value="20k0" x="5.4" y="17" smashed="yes" rot="R270">
+<attribute name="NAME" x="6.035" y="17.635" size="1" layer="25" font="vector" rot="R270"/>
+<attribute name="VALUE" x="3.495" y="17.635" size="0.8128" layer="27" rot="R270"/>
+</element>
+<element name="R20" library="omat_ic_2" package="R0603" value="2k00" x="41.5" y="32.2" smashed="yes" rot="R180">
+<attribute name="NAME" x="43.135" y="31.365" size="1" layer="25" font="vector" rot="R180"/>
+<attribute name="VALUE" x="42.135" y="34.105" size="0.8128" layer="27" rot="R180"/>
+</element>
+<element name="R21" library="omat_ic_2" package="R0603" value="825" x="28" y="13.5" smashed="yes">
+<attribute name="NAME" x="27.365" y="14.135" size="1" layer="25" font="vector" display="off"/>
+<attribute name="VALUE" x="27.365" y="11.595" size="0.8128" layer="27"/>
+</element>
+<element name="R22" library="omat_ic_2" package="R0603" value="499" x="27" y="49" smashed="yes">
+<attribute name="NAME" x="22.165" y="48.435" size="1" layer="25" font="vector"/>
+<attribute name="VALUE" x="26.365" y="47.095" size="0.8128" layer="27"/>
+</element>
+<element name="R23" library="omat_ic_2" package="R0603" value="499" x="38.5" y="49" smashed="yes" rot="R180">
+<attribute name="NAME" x="42.935" y="49.565" size="1" layer="25" font="vector" rot="R180"/>
+<attribute name="VALUE" x="39.135" y="50.905" size="0.8128" layer="27" rot="R180"/>
+</element>
+<element name="R26" library="omat_ic_2" package="R0603" value="499" x="38.5" y="47.7" smashed="yes" rot="R180">
+<attribute name="NAME" x="42.935" y="48.065" size="1" layer="25" font="vector" rot="R180"/>
+<attribute name="VALUE" x="39.135" y="49.605" size="0.8128" layer="27" rot="R180"/>
+</element>
+<element name="R27" library="omat_ic_2" package="R0603" value="2k00" x="22.4" y="27.6" smashed="yes" rot="R270">
+<attribute name="NAME" x="20.565" y="29.135" size="1" layer="25" font="vector"/>
+<attribute name="VALUE" x="20.495" y="28.235" size="0.8128" layer="27" rot="R270"/>
+</element>
+<element name="R3" library="omat_ic_2" package="R0603" value="2k00" x="20.9" y="18" smashed="yes">
+<attribute name="NAME" x="20.065" y="18.835" size="1" layer="25" font="vector"/>
+<attribute name="VALUE" x="20.265" y="16.095" size="0.8128" layer="27"/>
+</element>
+<element name="R30" library="omat_ic_2" package="R0603" value="2k00" x="19.3" y="27.6" smashed="yes" rot="R270">
+<attribute name="NAME" x="17.165" y="29.135" size="1" layer="25" font="vector"/>
+<attribute name="VALUE" x="17.395" y="28.235" size="0.8128" layer="27" rot="R270"/>
+</element>
+<element name="R35" library="omat_ic_2" package="R1206" value="5k90 1206" x="9" y="14.5" smashed="yes">
+<attribute name="NAME" x="6.73" y="12.17" size="1" layer="25" font="vector"/>
+<attribute name="VALUE" x="7.73" y="11.96" size="1.27" layer="27"/>
+</element>
+<element name="R36" library="omat_ic_2" package="R0603" value="825" x="11.8" y="19.3" smashed="yes" rot="R270">
+<attribute name="NAME" x="11.435" y="18.135" size="1" layer="25" font="vector" rot="R270"/>
+<attribute name="VALUE" x="9.895" y="19.935" size="0.8128" layer="27" rot="R270"/>
+</element>
+<element name="R4" library="omat_ic_2" package="R1206" value="5k90 1206" x="33.5" y="10" smashed="yes" rot="R270">
+<attribute name="NAME" x="34.77" y="11.27" size="1" layer="25" font="vector" rot="R270" display="off"/>
+<attribute name="VALUE" x="30.96" y="11.27" size="1.27" layer="27" rot="R270"/>
+</element>
+<element name="R42" library="omat_ic_2" package="R0603" value="100" x="45" y="26" smashed="yes" rot="R180">
+<attribute name="NAME" x="43.565" y="24.035" size="1" layer="25" font="vector"/>
+<attribute name="VALUE" x="45.635" y="27.905" size="0.8128" layer="27" rot="R180"/>
+</element>
+<element name="R47" library="omat_ic_2" package="R0603" value="100" x="45" y="28.5" smashed="yes" rot="R180">
+<attribute name="NAME" x="43.965" y="29.335" size="1" layer="25" font="vector"/>
+<attribute name="VALUE" x="45.635" y="30.405" size="0.8128" layer="27" rot="R180"/>
+</element>
+<element name="R5" library="omat_ic_2" package="R1206" value="5k90 1206" x="36" y="10" smashed="yes" rot="R270">
+<attribute name="NAME" x="37.47" y="11.07" size="1" layer="25" font="vector" rot="R270"/>
+<attribute name="VALUE" x="33.46" y="11.27" size="1.27" layer="27" rot="R270"/>
+</element>
+<element name="R58" library="omat_ic_2" package="R1206" value="121 1206" x="43.5" y="13.8" smashed="yes" rot="R180">
+<attribute name="NAME" x="46.03" y="13.27" size="1" layer="25" font="vector"/>
+<attribute name="VALUE" x="44.77" y="16.34" size="1.27" layer="27" rot="R180"/>
+</element>
+<element name="R59" library="omat_ic_2" package="R0603" value="2k00" x="48" y="19" smashed="yes" rot="R180">
+<attribute name="NAME" x="49.435" y="20.765" size="1" layer="25" font="vector" rot="R180"/>
+<attribute name="VALUE" x="48.635" y="20.905" size="0.8128" layer="27" rot="R180"/>
+</element>
+<element name="R6" library="omat_ic_2" package="R0603" value="499" x="27" y="47.7" smashed="yes">
+<attribute name="NAME" x="28.365" y="47.135" size="1" layer="25" font="vector"/>
+<attribute name="VALUE" x="26.365" y="45.795" size="0.8128" layer="27"/>
+</element>
+<element name="R7" library="omat_ic_2" package="R0603" value="10" x="6.5" y="37.5" smashed="yes">
+<attribute name="NAME" x="6.665" y="38.535" size="1" layer="25" font="vector"/>
+<attribute name="VALUE" x="5.865" y="35.595" size="0.8128" layer="27"/>
+</element>
+<element name="R8" library="omat_ic_2" package="R0603" value="0R-DNP" x="23.5" y="33.5" smashed="yes" rot="R270">
+<attribute name="NAME" x="22.865" y="35.135" size="1" layer="25" font="vector"/>
+<attribute name="VALUE" x="21.595" y="34.135" size="0.8128" layer="27" rot="R270"/>
+</element>
+<element name="R9" library="omat_ic_2" package="R0603" value="825" x="37" y="13.5" smashed="yes" rot="R180">
+<attribute name="NAME" x="37.635" y="12.865" size="1" layer="25" font="vector" rot="R180" display="off"/>
+<attribute name="VALUE" x="37.635" y="15.405" size="0.8128" layer="27" rot="R180"/>
+</element>
+<element name="U$5" library="dafug" package="DAFUG" value="DAFUG" x="3.4" y="40.87" smashed="yes"/>
+<element name="V10" library="omat_ic_2" package="DO214AC" value="SK34A" x="21" y="6.5" smashed="yes" rot="R90">
+<attribute name="NAME" x="22.54" y="3.114" size="1" layer="25" font="vector" ratio="10" rot="R180"/>
+<attribute name="VALUE" x="23.556" y="3.86" size="1.27" layer="27" ratio="10" rot="R90"/>
+</element>
+<element name="V16" library="omat_ic_2" package="DO214AC" value="SMAJ20A" x="4.6" y="10" smashed="yes" rot="R180">
+<attribute name="NAME" x="3.84" y="8.714" size="1" layer="25" font="vector" ratio="10" rot="R180"/>
+<attribute name="VALUE" x="7.24" y="12.556" size="1.27" layer="27" ratio="10" rot="R180"/>
+</element>
+<element name="V2" library="omat_ic_2" package="SOIC8-N_MC" value="AO4803A" x="19.5" y="13.5" smashed="yes" rot="R270">
+<attribute name="NAME" x="18.7474" y="13.094" size="1" layer="25" font="vector" ratio="10" rot="SR0"/>
+<attribute name="VALUE" x="16.0456" y="15.2272" size="0.8128" layer="27" ratio="10" rot="SR270"/>
+</element>
+<element name="V23" library="omat_ic_2" package="SOT23" value="SM712" x="43.5" y="10.3" smashed="yes">
+<attribute name="NAME" x="42.195" y="7.205" size="1" layer="25" font="vector"/>
+<attribute name="VALUE" x="41.595" y="7.125" size="1.27" layer="27"/>
+</element>
+<element name="V27" library="omat_ic_2" package="SOT23-6" value="ESDA19SC6" x="25" y="10" smashed="yes" rot="R90">
+<attribute name="NAME" x="23.2" y="8.8" size="1" layer="25" font="vector" rot="R90"/>
+</element>
+<element name="V3" library="omat_ic_2" package="SOT23" value="2N7002K" x="15" y="16.5" smashed="yes">
+<attribute name="NAME" x="14.295" y="18.605" size="1" layer="25" font="vector"/>
+<attribute name="VALUE" x="13.095" y="13.325" size="1.27" layer="27"/>
+</element>
+<element name="V5" library="omat_ic_2" package="SOT23" value="2N7002K" x="24" y="16.5" smashed="yes">
+<attribute name="NAME" x="25.895" y="17.005" size="1" layer="25" font="vector"/>
+<attribute name="VALUE" x="22.095" y="13.325" size="1.27" layer="27"/>
+</element>
+<element name="V8" library="omat_ic_2" package="DO214AC" value="SK34A" x="18.5" y="6.5" smashed="yes" rot="R90">
+<attribute name="NAME" x="19.34" y="3.214" size="1" layer="25" font="vector" ratio="10" rot="R180"/>
+<attribute name="VALUE" x="21.056" y="3.86" size="1.27" layer="27" ratio="10" rot="R90"/>
+</element>
+<element name="X2" library="omat_ic_2" package="MPT0.5/8-2.54" value="MPT0.5/8-2.54" x="24.5" y="3.5" smashed="yes">
+<attribute name="NAME" x="20.776" y="0.402" size="1" layer="25" font="vector"/>
+<attribute name="VALUE" x="22.976" y="5.532" size="0.8128" layer="27"/>
+</element>
+<element name="X4" library="omat_ic_2" package="U.FL-R-SMT-1" value="U.FL-R-SMT-1" x="3" y="34.3" smashed="yes" rot="R90">
+<attribute name="NAME" x="4.1" y="31.9" size="1" layer="25" font="vector" rot="R180"/>
+</element>
+<element name="X3" library="omat_ic_2" package="PIIKKIRIMA-3" value="PIIKKIRIMA-3" x="48.5" y="41.28" smashed="yes" rot="R270">
+<attribute name="NAME" x="47.65" y="42.951" size="1" layer="25" font="vector" ratio="10"/>
+<attribute name="VALUE" x="50.151" y="36.835" size="0.8128" layer="27" ratio="10" rot="R270"/>
+</element>
+<element name="X5" library="omat_ic_2" package="PIIKKIRIMA-5" value="PIIKKIRIMA-5" x="48.5" y="23.5" smashed="yes" rot="R90">
+<attribute name="NAME" x="49.37" y="22.049" size="1" layer="25" font="vector" ratio="10" rot="R180"/>
+<attribute name="VALUE" x="46.849" y="29.85" size="1.27" layer="27" ratio="10" rot="R90"/>
+</element>
+<element name="X1" library="omat_ic_2" package="TE_RUUVILIITIN2" value="" x="9" y="4" smashed="yes">
+<attribute name="NAME" x="17.26" y="0.48" size="1" layer="25" font="vector"/>
+</element>
+<element name="Y1" library="EKE" package="PTH-2.6-5.5SQ" value="PTH2.6-5.5SQ" x="3" y="3" smashed="yes">
+<attribute name="NAME" x="3" y="0" size="1.4224" layer="21" align="top-center" display="off"/>
+</element>
+<element name="Y2" library="EKE" package="PTH-2.6-5.5SQ" value="PTH2.6-5.5SQ" x="47" y="3" smashed="yes">
+<attribute name="NAME" x="47" y="0" size="1.4224" layer="21" align="top-center" display="off"/>
+</element>
+<element name="Y3" library="EKE" package="PTH-2.6-5.5SQ" value="PTH2.6-5.5SQ" x="47" y="47" smashed="yes">
+<attribute name="NAME" x="47" y="44" size="1.4224" layer="21" align="top-center" display="off"/>
+</element>
+<element name="Y4" library="EKE" package="PTH-2.6-5.5SQ" value="PTH2.6-5.5SQ" x="3" y="47" smashed="yes">
+<attribute name="NAME" x="3" y="44" size="1.4224" layer="21" align="top-center" display="off"/>
+</element>
+<element name="L1" library="omat_ic_2" package="SRN6045" value="SRN6045-100M" x="4.4" y="25" smashed="yes" rot="R180">
+<attribute name="NAME" x="7.15" y="21" size="1" layer="25" font="vector" rot="R180"/>
+</element>
+<element name="U$1" library="dafug" package="DAFUG" value="" x="11" y="46" rot="MR0"/>
 </elements>
 <signals>
 <signal name="N1_PHASE">
@@ -1263,14 +1575,14 @@ design rules under a new name.</description>
 <contactref element="X3" pad="3"/>
 <contactref element="D4" pad="4"/>
 <contactref element="C18" pad="2"/>
-<contactref element="A2" pad="10"/>
-<contactref element="A2" pad="12"/>
-<contactref element="A2" pad="7"/>
+<contactref element="A1" pad="10"/>
+<contactref element="A1" pad="12"/>
+<contactref element="A1" pad="7"/>
 <contactref element="X4" pad="GND1"/>
 <contactref element="X4" pad="GND2"/>
-<contactref element="A2" pad="24"/>
-<contactref element="A2" pad="13"/>
-<contactref element="A2" pad="22"/>
+<contactref element="A1" pad="24"/>
+<contactref element="A1" pad="13"/>
+<contactref element="A1" pad="22"/>
 <contactref element="R6" pad="1"/>
 <contactref element="C3" pad="2"/>
 <contactref element="R8" pad="2"/>
@@ -1323,7 +1635,7 @@ design rules under a new name.</description>
 <via x="25" y="38.4" extent="1-16" drill="0.4"/>
 <via x="25" y="36.6" extent="1-16" drill="0.4"/>
 <via x="28.8" y="46" extent="1-16" drill="0.4"/>
-<via x="25" y="49" extent="1-16" drill="0.4"/>
+<via x="25.2" y="48.8" extent="1-16" drill="0.4"/>
 <via x="24.6" y="46.6" extent="1-16" drill="0.4"/>
 <via x="33.2" y="49.2" extent="1-16" drill="0.4"/>
 <via x="37.6" y="43" extent="1-16" drill="0.4"/>
@@ -1418,7 +1730,7 @@ design rules under a new name.</description>
 <contactref element="D1" pad="48"/>
 <contactref element="D1" pad="64"/>
 <contactref element="L2" pad="2"/>
-<contactref element="H6" pad="A"/>
+<contactref element="H4" pad="A"/>
 <contactref element="R27" pad="2"/>
 <contactref element="R30" pad="2"/>
 <contactref element="D3" pad="8"/>
@@ -1426,7 +1738,7 @@ design rules under a new name.</description>
 <contactref element="D4" pad="8"/>
 <contactref element="C18" pad="1"/>
 <contactref element="R18" pad="2"/>
-<contactref element="A2" pad="23"/>
+<contactref element="A1" pad="23"/>
 <contactref element="C3" pad="1"/>
 <contactref element="D5" pad="8"/>
 <contactref element="C19" pad="1"/>
@@ -2106,20 +2418,20 @@ design rules under a new name.</description>
 </signal>
 <signal name="N$2">
 <contactref element="R23" pad="2"/>
-<contactref element="H5" pad="C"/>
+<contactref element="H3" pad="C"/>
 <wire x1="37.775" y1="49" x2="34.2" y2="49" width="0.3" layer="1"/>
 <wire x1="34" y1="48.25" x2="34" y2="48.8" width="0.3" layer="1"/>
 <wire x1="34" y1="48.8" x2="34.2" y2="49" width="0.3" layer="1"/>
 </signal>
 <signal name="N$3">
-<contactref element="H4" pad="C"/>
+<contactref element="H2" pad="C"/>
 <contactref element="R22" pad="2"/>
 <wire x1="27.725" y1="49" x2="32.2" y2="49" width="0.3" layer="1"/>
 <wire x1="32.5" y1="48.25" x2="32.5" y2="48.7" width="0.3" layer="1"/>
 <wire x1="32.5" y1="48.7" x2="32.2" y2="49" width="0.3" layer="1"/>
 </signal>
 <signal name="LED_RED">
-<contactref element="H4" pad="A"/>
+<contactref element="H2" pad="A"/>
 <contactref element="D1" pad="40"/>
 <wire x1="33.65" y1="36.215" x2="33.65" y2="44.95" width="0.2" layer="1"/>
 <wire x1="33.65" y1="44.95" x2="33.2" y2="45.4" width="0.2" layer="1"/>
@@ -2128,14 +2440,14 @@ design rules under a new name.</description>
 <wire x1="32.5" y1="46.75" x2="32.5" y2="45.7" width="0.2" layer="1"/>
 </signal>
 <signal name="LED_GRN">
-<contactref element="H5" pad="A"/>
+<contactref element="H3" pad="A"/>
 <contactref element="D1" pad="39"/>
 <wire x1="34.15" y1="36.215" x2="34.15" y2="45.25" width="0.2" layer="1"/>
 <wire x1="34.15" y1="45.25" x2="34" y2="45.4" width="0.2" layer="1"/>
 <wire x1="34" y1="46.75" x2="34" y2="45.4" width="0.2" layer="1"/>
 </signal>
 <signal name="N$5">
-<contactref element="H6" pad="C"/>
+<contactref element="H4" pad="C"/>
 <contactref element="R26" pad="2"/>
 <wire x1="37.775" y1="47.7" x2="37.1" y2="47.7" width="0.3" layer="1"/>
 <wire x1="37.1" y1="47.7" x2="36.55" y2="48.25" width="0.3" layer="1"/>
@@ -2205,14 +2517,14 @@ design rules under a new name.</description>
 </signal>
 <signal name="GPSRXD">
 <contactref element="D1" pad="42"/>
-<contactref element="A2" pad="21"/>
+<contactref element="A1" pad="21"/>
 <wire x1="21.51" y1="43.91" x2="31.69" y2="43.91" width="0.2" layer="1"/>
 <wire x1="31.69" y1="43.91" x2="32.65" y2="42.95" width="0.2" layer="1"/>
 <wire x1="32.65" y1="36.215" x2="32.65" y2="42.95" width="0.2" layer="1"/>
 </signal>
 <signal name="GPSTXD">
 <contactref element="D1" pad="43"/>
-<contactref element="A2" pad="20"/>
+<contactref element="A1" pad="20"/>
 <wire x1="21.51" y1="42.81" x2="23.41" y2="42.81" width="0.2" layer="1"/>
 <wire x1="23.41" y1="42.81" x2="24" y2="43.4" width="0.2" layer="1"/>
 <wire x1="24" y1="43.4" x2="31.4" y2="43.4" width="0.2" layer="1"/>
@@ -2270,7 +2582,7 @@ design rules under a new name.</description>
 <wire x1="41.405" y1="44.995" x2="41.4" y2="45" width="0.3" layer="1"/>
 </signal>
 <signal name="GPS1PPS">
-<contactref element="A2" pad="3"/>
+<contactref element="A1" pad="3"/>
 <contactref element="H1" pad="A"/>
 <contactref element="D1" pad="41"/>
 <wire x1="33.15" y1="36.215" x2="33.15" y2="44.85" width="0.2" layer="1"/>
@@ -2297,8 +2609,8 @@ design rules under a new name.</description>
 <wire x1="31" y1="48.25" x2="29.65" y2="48.25" width="0.3" layer="1"/>
 </signal>
 <signal name="VCCRF">
-<contactref element="A2" pad="8"/>
-<contactref element="A2" pad="9"/>
+<contactref element="A1" pad="8"/>
+<contactref element="A1" pad="9"/>
 <contactref element="R7" pad="2"/>
 <wire x1="9.31" y1="36.51" x2="8.215" y2="36.51" width="0.5" layer="1"/>
 <wire x1="8.215" y1="36.51" x2="7.225" y2="37.5" width="0.5" layer="1"/>
@@ -2306,7 +2618,7 @@ design rules under a new name.</description>
 <wire x1="7.335" y1="37.61" x2="7.225" y2="37.5" width="0.5" layer="1"/>
 </signal>
 <signal name="GPSRF">
-<contactref element="A2" pad="11"/>
+<contactref element="A1" pad="11"/>
 <contactref element="L3" pad="1"/>
 <contactref element="X4" pad="SIG"/>
 <wire x1="9.31" y1="34.31" x2="6.535" y2="34.31" width="0.5" layer="1"/>
@@ -2322,13 +2634,13 @@ design rules under a new name.</description>
 <wire x1="6.5" y1="36.1" x2="5.775" y2="36.825" width="0.5" layer="1"/>
 </signal>
 <signal name="N$21">
-<contactref element="A2" pad="14"/>
+<contactref element="A1" pad="14"/>
 <contactref element="R8" pad="1"/>
 <wire x1="21.51" y1="34.31" x2="23.415" y2="34.31" width="0.3" layer="1"/>
 <wire x1="23.415" y1="34.31" x2="23.5" y2="34.225" width="0.3" layer="1"/>
 </signal>
 <signal name="GPSSDA">
-<contactref element="A2" pad="18"/>
+<contactref element="A1" pad="18"/>
 <contactref element="D5" pad="5"/>
 <wire x1="21.51" y1="40.61" x2="24.59" y2="40.61" width="0.2" layer="1"/>
 <wire x1="24.59" y1="40.61" x2="24.8" y2="40.4" width="0.2" layer="1"/>
@@ -2336,13 +2648,54 @@ design rules under a new name.</description>
 <wire x1="25.7304" y1="40.4" x2="25.7348" y2="40.3956" width="0.2" layer="1"/>
 </signal>
 <signal name="GPSSCL">
-<contactref element="A2" pad="19"/>
+<contactref element="A1" pad="19"/>
 <contactref element="D5" pad="6"/>
 <wire x1="26.3698" y1="40.3956" x2="26.3698" y2="41.2302" width="0.2" layer="1"/>
 <wire x1="26.3698" y1="41.2302" x2="25.89" y2="41.71" width="0.2" layer="1"/>
 <wire x1="21.51" y1="41.71" x2="25.89" y2="41.71" width="0.2" layer="1"/>
 </signal>
+<signal name="N$33">
+<wire x1="9.866921875" y1="29.861525" x2="9.659459375" y2="29.984953125" width="0.2" layer="16" curve="-6.500028"/>
+<wire x1="9.659459375" y1="29.984953125" x2="8.941765625" y2="29.435125" width="0.2" layer="16"/>
+<wire x1="8.941765625" y1="29.435125" x2="8.535125" y2="29.841765625" width="0.2" layer="16"/>
+<wire x1="8.535125" y1="29.841765625" x2="9.084953125" y2="30.559459375" width="0.2" layer="16"/>
+<wire x1="9.084953125" y1="30.559459375" x2="8.760084375" y2="31.3437625" width="0.2" layer="16" curve="-23.000057"/>
+<wire x1="8.760084375" y1="31.3437625" x2="7.8638125" y2="31.4624625" width="0.2" layer="16"/>
+<wire x1="7.8638125" y1="31.4624625" x2="7.8638125" y2="32.0375375" width="0.2" layer="16"/>
+<wire x1="7.8638125" y1="32.0375375" x2="8.760084375" y2="32.1562375" width="0.2" layer="16"/>
+<wire x1="8.760084375" y1="32.1562375" x2="9.084953125" y2="32.940540625" width="0.2" layer="16" curve="-23.000057"/>
+<wire x1="9.084953125" y1="32.940540625" x2="8.535125" y2="33.658234375" width="0.2" layer="16"/>
+<wire x1="8.535125" y1="33.658234375" x2="8.941765625" y2="34.064875" width="0.2" layer="16"/>
+<wire x1="8.941765625" y1="34.064875" x2="9.659459375" y2="33.515046875" width="0.2" layer="16"/>
+<wire x1="9.659459375" y1="33.515046875" x2="10.4437625" y2="33.839915625" width="0.2" layer="16" curve="-23.000057"/>
+<wire x1="10.4437625" y1="33.839915625" x2="10.5624625" y2="34.7361875" width="0.2" layer="16"/>
+<wire x1="10.5624625" y1="34.7361875" x2="11.1375375" y2="34.7361875" width="0.2" layer="16"/>
+<wire x1="11.1375375" y1="34.7361875" x2="11.2562375" y2="33.839915625" width="0.2" layer="16"/>
+<wire x1="11.2562375" y1="33.839915625" x2="12.040540625" y2="33.515046875" width="0.2" layer="16" curve="-23.000057"/>
+<wire x1="12.040540625" y1="33.515046875" x2="12.758234375" y2="34.064875" width="0.2" layer="16"/>
+<wire x1="12.758234375" y1="34.064875" x2="13.164875" y2="33.658234375" width="0.2" layer="16"/>
+<wire x1="13.164875" y1="33.658234375" x2="12.615046875" y2="32.940540625" width="0.2" layer="16"/>
+<wire x1="12.615046875" y1="32.940540625" x2="12.939915625" y2="32.1562375" width="0.2" layer="16" curve="-23.000057"/>
+<wire x1="12.939915625" y1="32.1562375" x2="13.8361875" y2="32.0375375" width="0.2" layer="16"/>
+<wire x1="13.8361875" y1="32.0375375" x2="13.8361875" y2="31.4624625" width="0.2" layer="16"/>
+<wire x1="13.8361875" y1="31.4624625" x2="12.939915625" y2="31.3437625" width="0.2" layer="16"/>
+<wire x1="12.939915625" y1="31.3437625" x2="12.615046875" y2="30.559459375" width="0.2" layer="16" curve="-23.000057"/>
+<wire x1="12.615046875" y1="30.559459375" x2="13.164875" y2="29.841765625" width="0.2" layer="16"/>
+<wire x1="13.164875" y1="29.841765625" x2="12.758234375" y2="29.435125" width="0.2" layer="16"/>
+<wire x1="12.758234375" y1="29.435125" x2="12.040540625" y2="29.984953125" width="0.2" layer="16"/>
+<wire x1="12.040540625" y1="29.984953125" x2="11.833078125" y2="29.861525" width="0.2" layer="16" curve="-6.500028"/>
+<wire x1="11.833078125" y1="29.861525" x2="11.296853125" y2="30.891603125" width="0.2" layer="16"/>
+<wire x1="11.296853125" y1="30.891603125" x2="11.817740625" y2="31.75" width="0.2" layer="16" curve="62.49992"/>
+<wire x1="11.817740625" y1="31.75" x2="10.403146875" y2="30.891603125" width="0.2" layer="16" curve="242.5"/>
+<wire x1="10.403146875" y1="30.891603125" x2="9.866921875" y2="29.861525" width="0.2" layer="16"/>
+</signal>
 </signals>
 </board>
 </drawing>
+<compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
+</compatibility>
 </eagle>
