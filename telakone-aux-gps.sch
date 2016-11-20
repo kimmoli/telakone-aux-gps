@@ -5792,7 +5792,7 @@ ADC1_13</text>
 <net name="LED_RED" class="0">
 <segment>
 <pinref part="H2" gate="G$1" pin="A"/>
-<label x="157.48" y="165.1" size="1.778" layer="95"/>
+<label x="241.3" y="193.04" size="1.778" layer="95"/>
 <wire x1="289.56" y1="175.26" x2="289.56" y2="193.04" width="0.1524" layer="91"/>
 <pinref part="D1" gate="G$2" pin="PC9"/>
 <wire x1="289.56" y1="193.04" x2="223.52" y2="193.04" width="0.1524" layer="91"/>
@@ -5801,7 +5801,7 @@ ADC1_13</text>
 <net name="LED_GRN" class="0">
 <segment>
 <pinref part="H3" gate="G$1" pin="A"/>
-<label x="157.48" y="162.56" size="1.778" layer="95"/>
+<label x="241.3" y="195.58" size="1.778" layer="95"/>
 <pinref part="D1" gate="G$2" pin="PC8"/>
 <wire x1="223.52" y1="195.58" x2="299.72" y2="195.58" width="0.1524" layer="91"/>
 <wire x1="299.72" y1="195.58" x2="299.72" y2="175.26" width="0.1524" layer="91"/>
